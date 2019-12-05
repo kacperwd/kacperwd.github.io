@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0, minimal-ui">
+        <script type="text/javascript">
+            window.addEventListener("load", function(e) {
+                var adjustPage = function(e) {
+                    var background = document.getElementById("background");
+                    var backgroundImg = document.getElementById("background_img");
+                    var banner = document.getElementById("banner");
+                    var logo   = document.getElementById("logo");
+                    var logoImg = document.getElementById("logo_img");
+                    banner.style.top = Math.round((window.innerHeight - banner.clientHeight)) + "px";
+
+                    var bgWidthRatio  = background.clientWidth / backgroundImg.offsetWidth;
+                    var bgHeightRatio = (background.clientHeight - banner.clientHeight) / backgroundImg.offsetHeight;
+                    var currentAspectRatio  = bgWidthRatio / bgHeightRatio;
+                    var originalAspectRatio = backgroundImg.naturalWidth / backgroundImg.naturalHeight;
+                    var aspectRatiosRatio   = currentAspectRatio / originalAspectRatio;
+                    var deviation = Math.abs(1 - aspectRatiosRatio);
+
+                    logo.style.top = Math.round((backgroundImg.offsetHeight * bgHeightRatio) - logoImg.offsetHeight * 1.5) + "px";
+
+                    // Make the background look nicer by cropping, when it's stretched too much
+                    if(deviation > 0.3) {
+                        if(currentAspectRatio < originalAspectRatio) {
+                            bgWidthRatio *= 1 + deviation;
+                        }
+                        else if(currentAspectRatio > originalAspectRatio) {
+                            bgHeightRatio *= 1 + deviation;
+                        }
+                    }
+
+                    background.style.transform = "scale(" + bgWidthRatio + "," + bgHeightRatio + ")";
+                    background.style.left = Math.round(((window.innerWidth - (backgroundImg.clientWidth * bgWidthRatio)) / 2)) + "px";
+                    background.style.top  = Math.round(((window.innerHeight - banner.clientHeight) - (backgroundImg.clientHeight * bgHeightRatio))) + "px";
+
+                    game.onresize(window.innerWidth, window.innerHeight - banner.clientHeight);
+                    if(typeof timer.onresize == "function") timer.onresize(window.innerWidth, window.innerHeight);
+                };
+                window.setTimeout(function() {
+                    window.onresize = adjustPage;
+                    window.onresize();
+                });
+            });
+        </script>
+        <script type="text/javascript" src="files/pixi-legacy.min.js"></script>
+        <script type="text/javascript" src="utils.js"></script>
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+            }
+            #preloader {
+                background-color: #FFFFFF;
+                width: 100%;
+                height: 100%;
+                z-index: 2;
+                position: absolute;
+            }
+            #preloader-text {
+                position: absolute;
+                color: #000000;
+                font-size: 150%;
+                font-family: monospace;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+            }
+            #background {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                transform-origin: 0 0;
+            }
+            #timer {
+                position: absolute;
+                transform-origin: 0 0;
+                top: 3%;
+                display: none;
+                z-index: 1;
+            }
+            #logo {
+                position: absolute;
+                width: 12%;
+                height: 12%;
+                right: 25px;
+            }
+            #logo>img {
+                width: 100%;
+                height: auto;
+            }
+            #game_container {
+                position: absolute;
+            }
+            #banner {
+                position: absolute;
+                width: 100%;
+                background-color: #FFFFFF;
+            }
+            #banner>img {
+                width: 100%;
+                height: auto;
+                max-width: 100%;
+                max-height: 10vh;
+                min-height: 24px;
+                margin-left: auto;
+                margin-top: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="content">
+            <div id="preloader" onselectstart="return false">
+                <span id="preloader-text"></span>
+            </div>
+            <div id="background">
+                <img id="background_img" src="files/background.png"></img>
+            </div>
+            <div id="timer">
+            </div>
+            <div id="logo">
+                <img id="logo_img" src="files/logo.png"></img>
+            </div>
+            <div id="game_container"></div>
+        </div>
+        <div id="banner">
+            <img src="files/smokers-die-young.png"></img>
+        </div>
+        <script type="text/javascript" src="game.js"></script>
+    </body>
+</html>
