@@ -3,32 +3,6 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=0, minimal-ui">
-        <script type="text/javascript">
-            window.onload = function() {
-                var adjustPage = function(e) {
-                    alert(document.scrollHeight || document.body.scrollHeight);
-
-                    var innerWidth = window.innerWidth;
-                    var innerHeight = window.innerHeight;
-
-                    var banner = document.getElementById("banner");
-                    var preloader = document.getElementById("preloader");
-
-                    banner.style.top = (innerHeight - banner.clientHeight) + "px";
-                    preloader.style.width = innerWidth.toString() + "px";
-                    preloader.style.height = innerHeight.toString() + "px";
-
-                    game.onresize(innerWidth, innerHeight - banner.clientHeight);
-                    if(typeof timer.onresize == "function") timer.onresize(innerWidth, innerHeight);
-
-                    window.scrollTo(0, 0);
-                };
-                window.setTimeout(function() {
-                    window.onresize = adjustPage;
-                    adjustPage();
-                });
-            };
-        </script>
         <style>
             html, body {
                 margin: 0;
@@ -42,7 +16,6 @@
                 width: 100%;
                 height: 100%;
                 z-index: 2;
-                position: absolute;
             }
             #preloader-text {
                 position: absolute;
@@ -62,12 +35,11 @@
                 z-index: 1;
             }
             #game_container {
-                position: absolute;
             }
             #banner {
-                position: absolute;
                 width: 100%;
                 background-color: #FFFFFF;
+                display: none;
             }
             #banner>img {
                 max-width: 100%;
@@ -95,5 +67,23 @@
         <script type="text/javascript" src="files/pixi-legacy.min.js"></script>
         <script type="text/javascript" src="utils.js"></script>
         <script type="text/javascript" src="game.js"></script>
+        <script type="text/javascript">
+            window.adjustPage = function() {
+                var innerWidth = window.innerWidth;
+                var innerHeight = window.innerHeight;
+
+                var banner = document.getElementById("banner");
+                banner.style.display = "inline-block";
+
+                var preloader = document.getElementById("preloader");
+                preloader.style.width = innerWidth.toString() + "px";
+                preloader.style.height = innerHeight.toString() + "px";
+
+                game.onresize(innerWidth, innerHeight - banner.clientHeight);
+                if(typeof timer.onresize == "function") timer.onresize(innerWidth, innerHeight);
+
+                window.scrollTo(0, 0);
+            };
+        </script>
     </body>
 </html>
