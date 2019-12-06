@@ -2,56 +2,41 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0, minimal-ui">
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=0, minimal-ui">
         <script type="text/javascript">
-            window.addEventListener("load", function(e) {
+            window.onload = function() {
                 var adjustPage = function(e) {
-                    var background = document.getElementById("background");
-                    var backgroundImg = document.getElementById("background_img");
+                    var innerWidth = window.innerWidth;
+                    var innerHeight = window.innerHeight;
+
+                    document.documentElement.style.height = innerHeight.toString() + "px";
+                    document.body.style.height = innerHeight.toString() + "px";
+
                     var banner = document.getElementById("banner");
-                    var logo   = document.getElementById("logo");
-                    var logoImg = document.getElementById("logo_img");
-                    banner.style.top = Math.round((window.innerHeight - banner.clientHeight)) + "px";
+                    var preloader = document.getElementById("preloader");
 
-                    var bgWidthRatio  = background.clientWidth / backgroundImg.offsetWidth;
-                    var bgHeightRatio = (background.clientHeight - banner.clientHeight) / backgroundImg.offsetHeight;
-                    var currentAspectRatio  = bgWidthRatio / bgHeightRatio;
-                    var originalAspectRatio = backgroundImg.naturalWidth / backgroundImg.naturalHeight;
-                    var aspectRatiosRatio   = currentAspectRatio / originalAspectRatio;
-                    var deviation = Math.abs(1 - aspectRatiosRatio);
+                    banner.style.top = (innerHeight - banner.clientHeight) + "px";
+                    preloader.style.width = innerWidth.toString() + "px";
+                    preloader.style.height = innerHeight.toStrirng() + "px";
 
-                    logo.style.top = Math.round((backgroundImg.offsetHeight * bgHeightRatio) - logoImg.offsetHeight * 1.5) + "px";
+                    game.onresize(innerWidth, innerHeight - banner.clientHeight);
+                    if(typeof timer.onresize == "function") timer.onresize(innerWidth, innerHeight);
 
-                    // Make the background look nicer by cropping, when it's stretched too much
-                    if(deviation > 0.3) {
-                        if(currentAspectRatio < originalAspectRatio) {
-                            bgWidthRatio *= 1 + deviation;
-                        }
-                        else if(currentAspectRatio > originalAspectRatio) {
-                            bgHeightRatio *= 1 + deviation;
-                        }
-                    }
-
-                    background.style.transform = "scale(" + bgWidthRatio + "," + bgHeightRatio + ")";
-                    background.style.left = Math.round(((window.innerWidth - (backgroundImg.clientWidth * bgWidthRatio)) / 2)) + "px";
-                    background.style.top  = Math.round(((window.innerHeight - banner.clientHeight) - (backgroundImg.clientHeight * bgHeightRatio))) + "px";
-
-                    game.onresize(window.innerWidth, window.innerHeight - banner.clientHeight);
-                    if(typeof timer.onresize == "function") timer.onresize(window.innerWidth, window.innerHeight);
+                    window.scrollTo(0, 0);
                 };
                 window.setTimeout(function() {
                     window.onresize = adjustPage;
-                    window.onresize();
+                    adjustPage();
                 });
-            });
+            };
         </script>
-        <script type="text/javascript" src="files/pixi-legacy.min.js"></script>
-        <script type="text/javascript" src="utils.js"></script>
         <style>
-            body {
+            html, body {
                 margin: 0;
                 padding: 0;
                 overflow: hidden;
+                width: 100%;
+                height: 100%;
             }
             #preloader {
                 background-color: #FFFFFF;
@@ -68,12 +53,7 @@
                 left: 50%;
                 top: 50%;
                 transform: translate(-50%, -50%);
-            }
-            #background {
-                position: absolute;
-                width: 100%;
-                height: 100%;
-                transform-origin: 0 0;
+                white-space: nowrap;
             }
             #timer {
                 position: absolute;
@@ -81,16 +61,6 @@
                 top: 3%;
                 display: none;
                 z-index: 1;
-            }
-            #logo {
-                position: absolute;
-                width: 12%;
-                height: 12%;
-                right: 25px;
-            }
-            #logo>img {
-                width: 100%;
-                height: auto;
             }
             #game_container {
                 position: absolute;
@@ -101,6 +71,7 @@
                 background-color: #FFFFFF;
             }
             #banner>img {
+                max-width: 100%;
                 width: 100%;
                 height: auto;
                 max-width: 100%;
@@ -113,22 +84,17 @@
     </head>
     <body>
         <div id="content">
-            <div id="preloader" onselectstart="return false">
+            <div id="preloader" onselectstart="return false;">
                 <span id="preloader-text"></span>
             </div>
-            <div id="background">
-                <img id="background_img" src="files/background.png"></img>
-            </div>
-            <div id="timer">
-            </div>
-            <div id="logo">
-                <img id="logo_img" src="files/logo.png"></img>
-            </div>
+            <div id="timer"></div>
             <div id="game_container"></div>
+            <div id="banner">
+                <img id="banner_img" src="files/smokers-die-young.png"></img>
+            </div>
         </div>
-        <div id="banner">
-            <img src="files/smokers-die-young.png"></img>
-        </div>
+        <script type="text/javascript" src="files/pixi-legacy.min.js"></script>
+        <script type="text/javascript" src="utils.js"></script>
         <script type="text/javascript" src="game.js"></script>
     </body>
 </html>

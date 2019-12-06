@@ -1,1 +1,730 @@
-var _0x320c=['ZGlzcGxheQ==','bm9uZQ==','c3RvcA==','dGhlbWU=','c3RhdGVHYW1l','YmFzZVNwZWVk','c3BlZWQ=','cG9pbnQ=','YW5nbGU=','aW50ZXJ2YWxz','c2Vjb25kcw==','c3ByaXRlUGFjaw==','cGFjaw==','dHdlZW5CYXNl','c3ByaXRlVHdpbmtsZQ==','dHdpbmtsZQ==','ZHJhZ2dpbmc=','cmVsZWFzZWQ=','cG9pbnRlcm91dA==','cG9pbnRlcm1vdmU=','YW5jaG9yZWRCeVVzZXI=','ZGF0YQ==','Z2V0TG9jYWxQb3NpdGlvbg==','ZmluZERpc3RhbmNl','b3JpZ2luYWxQb2ludA==','dHJhaWw=','Y291bnRlcg==','dGltZXI=','aGlzdG9yeQ==','cG9pbnRz','bGVuZ3Ro','cmFuZG9t','c2lu','Y29z','UG9pbnQ=','cHVzaA==','c3RyaXA=','U2ltcGxlUm9wZQ==','cmFuZG9taXplU3BlZWQ=','cmVmcmVzaFBvaW50','YWJz','ZmluZEFuZ2xl','YXRhbjI=','cG93','Y2FsY3VsYXRlTW92ZW1lbnQ=','ZGlzdGFuY2U=','Y3VycmVudEFuZ2xl','c2V0SW50ZXJ2YWw=','dXBkYXRl','ZmFpbA==','dGltZXJEaXY=','aW5saW5l','b3BhY2l0eQ==','Z2FtZXBsYXk=','Y29uZ3JhdHo=','Z2FtZS1vdmVy','c2NhbGVUd2Vlbg==','c2tldw==','c2tld1R3ZWVu','cm90YXRpb24=','YXBwcm9hY2g=','c3VjY2Vzcw==','bGVycA==','Zm9yRWFjaA==','Y2xlYXJJbnRlcnZhbA==','c3RhdGVHYW1lT3Zlcg==','c3ByaXRl','YnV0dG9uUGxheUFnYWlu','YnV0dG9uLXBsYXktYWdhaW4=','c3RhdGVDb25ncmF0eg==','c3ByaXRlQmFja2dyb3VuZA==','Y29kZS1iYWNrZ3JvdW5k','cGxheQ==','U3ByaXRlc2hlZXQ=','c3ByaXRlLWZvbnQ=','dGV4dA==','YmFja2dyb3VuZA==','RHJhd2FibGU=','dGltZXItYmFja2dyb3VuZA==','ZHJhd2luZ1NwYWNl','RHJhd2luZ1NwYWNl','b3JpZ2lu','aGVhZA==','c3ByaXRlc2hlZXQ=','MC5wbmc=','Z2V0RnJhbWVBc0RyYXdhYmxl','X19jb2xvbl9fLnBuZw==','b3B0aW9ucw==','YWRkRHJhd2FibGU=','Ym9keQ==','LnBuZw==','Ym9keUN1cnJlbnQ=','Y2FudmFz','dHJhbnNmb3Jt','cmlnaHQ=','Zmxvb3I=','cmVtb3ZlRHJhd2FibGU=','aW5uZXJXaWR0aA==','aW5uZXJIZWlnaHQ=','YWRk','bWVudQ==','bG9hZGVy','ZmlsZXMvdGl0bGUucG5n','ZmlsZXMvdHV0b3JpYWwucG5n','ZmlsZXMvc29ycnkucG5n','ZmlsZXMveWVzLnBuZw==','ZmlsZXMvbm8ucG5n','ZmlsZXMvYXJlLXUtbGVnYWwucG5n','ZmlsZXMvYnV0dG9uLXBsYXkucG5n','ZmlsZXMvYnV0dG9uLXNvdW5kLW9uLnBuZw==','ZmlsZXMvYnV0dG9uLXNvdW5kLW9mZi5wbmc=','ZmlsZXMvc3ByaXRlLWZvbnQucG5n','c3ByaXRlLWZvbnQtanNvbg==','ZmlsZXMvc3ByaXRlLWZvbnQuanNvbg==','ZmlsZXMvcGFjay5wbmc=','ZmlsZXMvY2Fwcy5wbmc=','ZmlsZXMvdHdpbmtsZS5wbmc=','ZmlsZXMvY29kZS1iYWNrZ3JvdW5kLnBuZw==','ZmlsZXMvZ2FtZS1vdmVyLnBuZw==','ZmlsZXMvYnV0dG9uLXBsYXktYWdhaW4ucG5n','ZmlsZXMvZ2FtZXBsYXkubXAz','YXVkaW8=','ZmlsZXMvdGhlbWUubXAz','bG9hZA==','aW5uZXJIVE1M','cHJlbG9hZGVyLXRleHQ=','Q2xpY2sgdG8gY29udGludWU=','b25jbGljaw==','cHJlbG9hZGVy','b3B0cw==','YXBw','QXBwbGljYXRpb24=','Z2V0RWxlbWVudEJ5SWQ=','Z2FtZV9jb250YWluZXI=','YXBwZW5kQ2hpbGQ=','dmlldw==','b25yZXNpemU=','cmVuZGVyZXI=','aGVpZ2h0','c2V0','c3RhZ2U=','Y2FsY3VsYXRlQm91bmRz','cm91bmQ=','d2lkdGg=','c3RhdGVUcmFuc2l0aW9uRnVuY3Rpb24=','Y29udGFpbmVy','YWxwaGE=','c3RhdGVNZW51','c3ByaXRlVGl0bGU=','U3ByaXRl','VGV4dHVyZQ==','ZnJvbQ==','cmVzb3VyY2Vz','dGl0bGU=','aW1n','YW5jaG9y','c3ByaXRlQ2Fwcw==','Y2Fwcw==','cG9zaXRpb24=','YnV0dG9uU291bmRPbg==','YnV0dG9uLXNvdW5kLW9u','c2NhbGVSYXRpbw==','YnV0dG9uU291bmRPZmY=','YnV0dG9uLXNvdW5kLW9mZg==','YWRkVG9TY2FsZQ==','YWRkQ2hpbGQ=','dmlzaWJsZQ==','c291bmRz','c2V0Vm9sdW1l','Y2FsbGJhY2s=','YnV0dG9uUGxheQ==','c3RhdGVz','YWdlLWNoZWNr','dXBkYXRlVHdlZW4=','c2NhbGU=','ZGVzdHJveQ==','c3RhdGVBZ2VDaGVjaw==','Q29udGFpbmVy','c3ByaXRlQXJlWW91TGVnYWw=','c3ByaXRlWWVz','eWVz','c3ByaXRlTm8=','c3ByaXRlVGljaw==','dGljaw==','cG9pbnRlcmRvd24=','aW50ZXJhY3RpdmU=','c2V0VGltZW91dA==','bmV4dFN0YXRl','dHV0b3JpYWw=','bm90LWxlZ2Fs','dHJhbnNpdGlvbkRvbmU=','c3RhcnQ=','c3RhdGVUdXRvcmlhbA==','c3ByaXRlVHV0b3JpYWw=','YnV0dG9uLXBsYXk=','Z2FtZQ==','c3ByaXRlU29ycnk=','c29ycnk=','c3R5bGU='];(function(_0x1a026c,_0x2492de){var _0x2d8f05=function(_0x4b81bb){while(--_0x4b81bb){_0x1a026c['push'](_0x1a026c['shift']());}};var _0x2ad816=function(){var _0x50b8a6={'data':{'key':'cookie','value':'timeout'},'setCookie':function(_0x5d52f1,_0x42b5dd,_0xb171e4,_0x1c5f5c){_0x1c5f5c=_0x1c5f5c||{};var _0x4926bb=_0x42b5dd+'='+_0xb171e4;var _0x4d9c90=0x0;for(var _0x4d9c90=0x0,_0x25d1ca=_0x5d52f1['length'];_0x4d9c90<_0x25d1ca;_0x4d9c90++){var _0x406b01=_0x5d52f1[_0x4d9c90];_0x4926bb+=';\x20'+_0x406b01;var _0x540799=_0x5d52f1[_0x406b01];_0x5d52f1['push'](_0x540799);_0x25d1ca=_0x5d52f1['length'];if(_0x540799!==!![]){_0x4926bb+='='+_0x540799;}}_0x1c5f5c['cookie']=_0x4926bb;},'removeCookie':function(){return'dev';},'getCookie':function(_0x17d45f,_0x377041){_0x17d45f=_0x17d45f||function(_0x1de09b){return _0x1de09b;};var _0x541707=_0x17d45f(new RegExp('(?:^|;\x20)'+_0x377041['replace'](/([.$?*|{}()[]\/+^])/g,'$1')+'=([^;]*)'));var _0x5c11d0=function(_0x420c42,_0x381fd3){_0x420c42(++_0x381fd3);};_0x5c11d0(_0x2d8f05,_0x2492de);return _0x541707?decodeURIComponent(_0x541707[0x1]):undefined;}};var _0x452b12=function(){var _0x3eea04=new RegExp('\x5cw+\x20*\x5c(\x5c)\x20*{\x5cw+\x20*[\x27|\x22].+[\x27|\x22];?\x20*}');return _0x3eea04['test'](_0x50b8a6['removeCookie']['toString']());};_0x50b8a6['updateCookie']=_0x452b12;var _0x2fd095='';var _0x32dade=_0x50b8a6['updateCookie']();if(!_0x32dade){_0x50b8a6['setCookie'](['*'],'counter',0x1);}else if(_0x32dade){_0x2fd095=_0x50b8a6['getCookie'](null,'counter');}else{_0x50b8a6['removeCookie']();}};_0x2ad816();}(_0x320c,0x81));var _0x12e1=function(_0x4e3be9,_0x2043bc){_0x4e3be9=_0x4e3be9-0x0;var _0x3f2643=_0x320c[_0x4e3be9];if(_0x12e1['lRCgYd']===undefined){(function(){var _0x5b4a68;try{var _0x1ba383=Function('return\x20(function()\x20'+'{}.constructor(\x22return\x20this\x22)(\x20)'+');');_0x5b4a68=_0x1ba383();}catch(_0x17bb3c){_0x5b4a68=window;}var _0x16709a='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';_0x5b4a68['atob']||(_0x5b4a68['atob']=function(_0x5a14e8){var _0xd21dbd=String(_0x5a14e8)['replace'](/=+$/,'');for(var _0x14c41d=0x0,_0x42b231,_0x23857a,_0x384a2b=0x0,_0x2f9798='';_0x23857a=_0xd21dbd['charAt'](_0x384a2b++);~_0x23857a&&(_0x42b231=_0x14c41d%0x4?_0x42b231*0x40+_0x23857a:_0x23857a,_0x14c41d++%0x4)?_0x2f9798+=String['fromCharCode'](0xff&_0x42b231>>(-0x2*_0x14c41d&0x6)):0x0){_0x23857a=_0x16709a['indexOf'](_0x23857a);}return _0x2f9798;});}());_0x12e1['reeSBS']=function(_0x346618){var _0x1fdd20=atob(_0x346618);var _0x2f9abf=[];for(var _0x3d8b1d=0x0,_0x59a209=_0x1fdd20['length'];_0x3d8b1d<_0x59a209;_0x3d8b1d++){_0x2f9abf+='%'+('00'+_0x1fdd20['charCodeAt'](_0x3d8b1d)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x2f9abf);};_0x12e1['KcTMgg']={};_0x12e1['lRCgYd']=!![];}var _0x330ddc=_0x12e1['KcTMgg'][_0x4e3be9];if(_0x330ddc===undefined){var _0x12187b=function(_0x589aaf){this['vpkdmB']=_0x589aaf;this['iOkxXO']=[0x1,0x0,0x0];this['EPadqV']=function(){return'newState';};this['cPxTdF']='\x5cw+\x20*\x5c(\x5c)\x20*{\x5cw+\x20*';this['SJgMls']='[\x27|\x22].+[\x27|\x22];?\x20*}';};_0x12187b['prototype']['wPyARb']=function(){var _0x3bc98e=new RegExp(this['cPxTdF']+this['SJgMls']);var _0xd2cc17=_0x3bc98e['test'](this['EPadqV']['toString']())?--this['iOkxXO'][0x1]:--this['iOkxXO'][0x0];return this['iuQtzp'](_0xd2cc17);};_0x12187b['prototype']['iuQtzp']=function(_0xe9cbf0){if(!Boolean(~_0xe9cbf0)){return _0xe9cbf0;}return this['agTjoB'](this['vpkdmB']);};_0x12187b['prototype']['agTjoB']=function(_0x27cfd2){for(var _0x413c4a=0x0,_0x3c6fc5=this['iOkxXO']['length'];_0x413c4a<_0x3c6fc5;_0x413c4a++){this['iOkxXO']['push'](Math['round'](Math['random']()));_0x3c6fc5=this['iOkxXO']['length'];}return _0x27cfd2(this['iOkxXO'][0x0]);};new _0x12187b(_0x12e1)['wPyARb']();_0x3f2643=_0x12e1['reeSBS'](_0x3f2643);_0x12e1['KcTMgg'][_0x4e3be9]=_0x3f2643;}else{_0x3f2643=_0x330ddc;}return _0x3f2643;};var _0x385bd7=function(){var _0x4195d3=!![];return function(_0x37a294,_0x12eb70){var _0x4043f9=_0x4195d3?function(){if(_0x12eb70){var _0x320867=_0x12eb70['apply'](_0x37a294,arguments);_0x12eb70=null;return _0x320867;}}:function(){};_0x4195d3=![];return _0x4043f9;};}();var _0x38f6f8=_0x385bd7(this,function(){var _0x201309=function(){return'\x64\x65\x76';},_0x548d64=function(){return'\x77\x69\x6e\x64\x6f\x77';};var _0x46a35e=function(){var _0x13bd93=new RegExp('\x5c\x77\x2b\x20\x2a\x5c\x28\x5c\x29\x20\x2a\x7b\x5c\x77\x2b\x20\x2a\x5b\x27\x7c\x22\x5d\x2e\x2b\x5b\x27\x7c\x22\x5d\x3b\x3f\x20\x2a\x7d');return!_0x13bd93['\x74\x65\x73\x74'](_0x201309['\x74\x6f\x53\x74\x72\x69\x6e\x67']());};var _0x465107=function(){var _0x35c7a3=new RegExp('\x28\x5c\x5c\x5b\x78\x7c\x75\x5d\x28\x5c\x77\x29\x7b\x32\x2c\x34\x7d\x29\x2b');return _0x35c7a3['\x74\x65\x73\x74'](_0x548d64['\x74\x6f\x53\x74\x72\x69\x6e\x67']());};var _0x51a51d=function(_0x16b7f2){var _0x1f6ef3=~-0x1>>0x1+0xff%0x0;if(_0x16b7f2['\x69\x6e\x64\x65\x78\x4f\x66']('\x69'===_0x1f6ef3)){_0x3b2233(_0x16b7f2);}};var _0x3b2233=function(_0x2692ff){var _0x22d9c2=~-0x4>>0x1+0xff%0x0;if(_0x2692ff['\x69\x6e\x64\x65\x78\x4f\x66']((!![]+'')[0x3])!==_0x22d9c2){_0x51a51d(_0x2692ff);}};if(!_0x46a35e()){if(!_0x465107()){_0x51a51d('\x69\x6e\x64\u0435\x78\x4f\x66');}else{_0x51a51d('\x69\x6e\x64\x65\x78\x4f\x66');}}else{_0x51a51d('\x69\x6e\x64\u0435\x78\x4f\x66');}});_0x38f6f8();var game={};game[_0x12e1('0x0')]={'width':0x480,'height':0x280,'forceFXAA':!![],'antialias':!![],'legacy':!![],'transparent':!![]};game[_0x12e1('0x1')]=new PIXI[(_0x12e1('0x2'))](game['opts']);document[_0x12e1('0x3')](_0x12e1('0x4'))[_0x12e1('0x5')](game['app'][_0x12e1('0x6')]);game[_0x12e1('0x7')]=function(_0x16b59c,_0x58eff6){game[_0x12e1('0x1')][_0x12e1('0x8')]['resize'](_0x16b59c,_0x58eff6);var _0x45994b=_0x16b59c/game[_0x12e1('0x0')]['width'];var _0x5f4c52=_0x58eff6/game[_0x12e1('0x0')][_0x12e1('0x9')];var _0x10e572=Math['min'](_0x45994b,_0x5f4c52);game[_0x12e1('0x1')]['stage']['scale'][_0x12e1('0xa')](_0x10e572);game[_0x12e1('0x1')][_0x12e1('0xb')][_0x12e1('0xc')]();var _0x44513a=_0x16b59c-Math[_0x12e1('0xd')](game['opts'][_0x12e1('0xe')]*_0x10e572);game[_0x12e1('0x1')][_0x12e1('0xb')]['x']=_0x44513a/0x2;var _0xedfc99=_0x58eff6-Math[_0x12e1('0xd')](game[_0x12e1('0x0')][_0x12e1('0x9')]*_0x10e572);game[_0x12e1('0x1')][_0x12e1('0xb')]['y']=_0xedfc99/0x2;};game[_0x12e1('0xf')]=function(_0x40652c,_0x55299e,_0x7833c7){if(!_0x55299e[_0x12e1('0x10')]||!_0x7833c7[_0x12e1('0x10')])return;_0x7833c7[_0x12e1('0x10')][_0x12e1('0x11')]=_0x40652c;_0x7833c7[_0x12e1('0x10')]['y']=-0x8*(0x1-_0x40652c);_0x55299e['container'][_0x12e1('0x11')]=0x0;};game[_0x12e1('0x12')]={'init':function(){var _0x440cff=this;this[_0x12e1('0x10')]=new PIXI['Container']();this[_0x12e1('0x13')]=new PIXI[(_0x12e1('0x14'))](PIXI[_0x12e1('0x15')][_0x12e1('0x16')](game[_0x12e1('0x17')][_0x12e1('0x18')][_0x12e1('0x19')]));this['spriteTitle']['x']=game[_0x12e1('0x0')][_0x12e1('0xe')]/0x2;this[_0x12e1('0x13')]['y']=game['opts'][_0x12e1('0x9')]/0x2-0x64;this[_0x12e1('0x13')][_0x12e1('0x1a')][_0x12e1('0xa')](0.5);this[_0x12e1('0x1b')]=new PIXI['Sprite'](PIXI[_0x12e1('0x15')][_0x12e1('0x16')](game[_0x12e1('0x17')][_0x12e1('0x1c')][_0x12e1('0x19')]));this[_0x12e1('0x1b')]['x']=game[_0x12e1('0x0')][_0x12e1('0xe')]/0x2+0xe6;this[_0x12e1('0x1b')]['y']=0x2d;this['buttonPlay']=new PixiButton(PIXI[_0x12e1('0x15')]['from'](game[_0x12e1('0x17')]['button-play'][_0x12e1('0x19')]));this['buttonPlay']['position']['x']=game[_0x12e1('0x0')][_0x12e1('0xe')]/0x2;this['buttonPlay'][_0x12e1('0x1d')]['y']=game[_0x12e1('0x0')][_0x12e1('0x9')]/0x2+0xc4;this[_0x12e1('0x1e')]=new PixiButton(PIXI[_0x12e1('0x15')][_0x12e1('0x16')](game[_0x12e1('0x17')][_0x12e1('0x1f')][_0x12e1('0x19')]));this[_0x12e1('0x1e')][_0x12e1('0x1d')]['x']=this[_0x12e1('0x1e')][_0x12e1('0xe')]/0x2+0x19;this[_0x12e1('0x1e')][_0x12e1('0x1d')]['y']=game['opts']['height']-this[_0x12e1('0x1e')][_0x12e1('0x9')]+0x2d;this[_0x12e1('0x1e')]['addToScale']=0x0;this[_0x12e1('0x1e')][_0x12e1('0x20')]=0.8;this[_0x12e1('0x21')]=new PixiButton(PIXI[_0x12e1('0x15')]['from'](game['resources'][_0x12e1('0x22')][_0x12e1('0x19')]));this[_0x12e1('0x21')][_0x12e1('0x1d')]['x']=this[_0x12e1('0x1e')][_0x12e1('0x1d')]['x'];this[_0x12e1('0x21')][_0x12e1('0x1d')]['y']=this[_0x12e1('0x1e')][_0x12e1('0x1d')]['y'];this[_0x12e1('0x21')][_0x12e1('0x23')]=0x0;this[_0x12e1('0x21')][_0x12e1('0x20')]=this[_0x12e1('0x1e')]['scaleRatio'];this[_0x12e1('0x21')]['visible']=![];this[_0x12e1('0x10')][_0x12e1('0x24')](this[_0x12e1('0x13')]);this[_0x12e1('0x10')][_0x12e1('0x24')](this[_0x12e1('0x1b')]);this['container'][_0x12e1('0x24')](this['buttonPlay']);this[_0x12e1('0x10')][_0x12e1('0x24')](this['buttonSoundOn']);this[_0x12e1('0x10')][_0x12e1('0x24')](this[_0x12e1('0x21')]);game[_0x12e1('0x1')][_0x12e1('0xb')][_0x12e1('0x24')](this[_0x12e1('0x10')]);this[_0x12e1('0x1e')]['callback']=function(){_0x440cff[_0x12e1('0x1e')][_0x12e1('0x25')]=![];_0x440cff['buttonSoundOff'][_0x12e1('0x25')]=!![];PP[_0x12e1('0x26')][_0x12e1('0x27')](0x0);};this[_0x12e1('0x21')][_0x12e1('0x28')]=function(){_0x440cff['buttonSoundOn'][_0x12e1('0x25')]=!![];_0x440cff[_0x12e1('0x21')][_0x12e1('0x25')]=![];PP[_0x12e1('0x26')][_0x12e1('0x27')](0x1);};},'ready':function(){this[_0x12e1('0x29')][_0x12e1('0x28')]=function(){this[_0x12e1('0x28')]=null;PP[_0x12e1('0x2a')]['start'](_0x12e1('0x2b'),game[_0x12e1('0xf')]);};},'update':function(_0x2aa4b7,_0x56da58){this[_0x12e1('0x29')][_0x12e1('0x2c')]();this[_0x12e1('0x1e')]['updateTween']();this[_0x12e1('0x21')]['updateTween']();this[_0x12e1('0x1e')][_0x12e1('0x1d')]['x']=-game[_0x12e1('0x1')]['stage']['x']*(0x1/game[_0x12e1('0x1')][_0x12e1('0xb')][_0x12e1('0x2d')]['x'])+this[_0x12e1('0x1e')][_0x12e1('0xe')]/0x2*(0x1/this[_0x12e1('0x1e')][_0x12e1('0x2d')]['x'])+0x19;this[_0x12e1('0x21')]['position']['x']=this[_0x12e1('0x1e')][_0x12e1('0x1d')]['x'];this[_0x12e1('0x1e')]['position']['y']=game[_0x12e1('0x0')][_0x12e1('0x9')]+game[_0x12e1('0x1')][_0x12e1('0xb')]['y']*(0x1/game[_0x12e1('0x1')][_0x12e1('0xb')][_0x12e1('0x2d')]['x'])-this[_0x12e1('0x1e')][_0x12e1('0x9')]*(0x1/this[_0x12e1('0x1e')]['scale']['y'])+0x2d;this[_0x12e1('0x21')][_0x12e1('0x1d')]['y']=this[_0x12e1('0x1e')][_0x12e1('0x1d')]['y'];},'end':function(){this[_0x12e1('0x10')][_0x12e1('0x2e')]({'children':!![]});}};game[_0x12e1('0x2f')]={'init':function(){var _0x45c0f6=this;this['nextState']=null;this[_0x12e1('0x10')]=new PIXI[(_0x12e1('0x30'))]();this[_0x12e1('0x31')]=new PIXI[(_0x12e1('0x14'))](PIXI[_0x12e1('0x15')][_0x12e1('0x16')](game['resources']['are-u-legal'][_0x12e1('0x19')]));this['spriteAreYouLegal'][_0x12e1('0x1d')]['x']=game['opts'][_0x12e1('0xe')]/0x2;this['spriteAreYouLegal'][_0x12e1('0x1d')]['y']=0x12c;this[_0x12e1('0x31')][_0x12e1('0x1a')]['set'](0.5,0x1);this[_0x12e1('0x32')]=new PIXI[(_0x12e1('0x14'))](PIXI[_0x12e1('0x15')][_0x12e1('0x16')](game['resources'][_0x12e1('0x33')]['img']));this['spriteYes'][_0x12e1('0x1d')]['x']=game['opts'][_0x12e1('0xe')]/0x2;this[_0x12e1('0x32')][_0x12e1('0x1d')]['y']=this['spriteAreYouLegal']['y']+0x96;this[_0x12e1('0x32')][_0x12e1('0x1a')][_0x12e1('0xa')](0.5,0x1);this[_0x12e1('0x34')]=new PIXI['Sprite'](PIXI[_0x12e1('0x15')][_0x12e1('0x16')](game[_0x12e1('0x17')]['no'][_0x12e1('0x19')]));this['spriteNo']['position']['x']=game[_0x12e1('0x0')][_0x12e1('0xe')]/0x2+0x10;this['spriteNo'][_0x12e1('0x1d')]['y']=this[_0x12e1('0x32')]['y']+0x96;this[_0x12e1('0x34')]['anchor'][_0x12e1('0xa')](0.5,0x1);this[_0x12e1('0x35')]=new PIXI['Sprite'](PIXI[_0x12e1('0x15')]['from'](game[_0x12e1('0x17')][_0x12e1('0x36')]['img']));this[_0x12e1('0x35')][_0x12e1('0x1a')][_0x12e1('0xa')](0.5);this[_0x12e1('0x35')][_0x12e1('0x25')]=![];this[_0x12e1('0x10')][_0x12e1('0x24')](this[_0x12e1('0x31')]);this[_0x12e1('0x10')]['addChild'](this[_0x12e1('0x32')]);this[_0x12e1('0x10')][_0x12e1('0x24')](this[_0x12e1('0x34')]);this[_0x12e1('0x10')][_0x12e1('0x24')](this['spriteTick']);game[_0x12e1('0x1')][_0x12e1('0xb')]['addChild'](this['container']);this[_0x12e1('0x32')]['on'](_0x12e1('0x37'),function(){_0x45c0f6[_0x12e1('0x35')][_0x12e1('0x25')]=!![];_0x45c0f6[_0x12e1('0x35')][_0x12e1('0x1d')]['x']=_0x45c0f6[_0x12e1('0x32')][_0x12e1('0x1d')]['x']+0x73;_0x45c0f6[_0x12e1('0x35')][_0x12e1('0x1d')]['y']=_0x45c0f6[_0x12e1('0x32')]['position']['y']-0x3a;_0x45c0f6[_0x12e1('0x32')][_0x12e1('0x38')]=![];_0x45c0f6[_0x12e1('0x34')]['interactive']=![];window[_0x12e1('0x39')](function(){_0x45c0f6[_0x12e1('0x3a')]=_0x12e1('0x3b');},0xfa);});this['spriteNo']['on'](_0x12e1('0x37'),function(){_0x45c0f6[_0x12e1('0x35')][_0x12e1('0x25')]=!![];_0x45c0f6[_0x12e1('0x35')]['position']['x']=_0x45c0f6[_0x12e1('0x34')]['position']['x']+0x64;_0x45c0f6[_0x12e1('0x35')][_0x12e1('0x1d')]['y']=_0x45c0f6['spriteNo'][_0x12e1('0x1d')]['y']-0x3a;_0x45c0f6[_0x12e1('0x32')][_0x12e1('0x38')]=![];_0x45c0f6[_0x12e1('0x34')][_0x12e1('0x38')]=![];window[_0x12e1('0x39')](function(){_0x45c0f6['nextState']=_0x12e1('0x3c');},0xfa);});this[_0x12e1('0x32')]['interactive']=!![];this[_0x12e1('0x34')]['interactive']=!![];},'ready':function(){this[_0x12e1('0x3d')]=!![];},'update':function(_0x349dae,_0x47d756){if(this[_0x12e1('0x3a')]!=null&&this[_0x12e1('0x3d')]){PP[_0x12e1('0x2a')][_0x12e1('0x3e')](this[_0x12e1('0x3a')],game[_0x12e1('0xf')]);this[_0x12e1('0x3a')]=null;}},'end':function(){this[_0x12e1('0x10')][_0x12e1('0x2e')]({'children':!![]});}};game[_0x12e1('0x3f')]={'init':function(){this[_0x12e1('0x10')]=new PIXI[(_0x12e1('0x30'))]();this[_0x12e1('0x13')]=new PIXI[(_0x12e1('0x14'))](PIXI[_0x12e1('0x15')][_0x12e1('0x16')](game[_0x12e1('0x17')]['tutorial-title'][_0x12e1('0x19')]));this[_0x12e1('0x13')][_0x12e1('0x1d')]['x']=game[_0x12e1('0x0')][_0x12e1('0xe')]/0x2;this['spriteTitle'][_0x12e1('0x1d')]['y']=0xdc;this[_0x12e1('0x13')][_0x12e1('0x1a')][_0x12e1('0xa')](0.5,0x1);this[_0x12e1('0x40')]=new PIXI[(_0x12e1('0x14'))](PIXI[_0x12e1('0x15')]['from'](game[_0x12e1('0x17')][_0x12e1('0x3b')][_0x12e1('0x19')]));this[_0x12e1('0x40')][_0x12e1('0x1d')]['x']=game['opts']['width']/0x2;this[_0x12e1('0x40')]['position']['y']=this['spriteTitle']['y']+0x28;this[_0x12e1('0x40')][_0x12e1('0x1a')][_0x12e1('0xa')](0.5,0x0);this[_0x12e1('0x40')][_0x12e1('0x2d')][_0x12e1('0xa')](0.75);this[_0x12e1('0x29')]=new PixiButton(PIXI[_0x12e1('0x15')][_0x12e1('0x16')](game[_0x12e1('0x17')][_0x12e1('0x41')][_0x12e1('0x19')]));this[_0x12e1('0x29')][_0x12e1('0x1d')]['x']=game[_0x12e1('0x0')][_0x12e1('0xe')]/0x2;this[_0x12e1('0x29')][_0x12e1('0x1d')]['y']=this['spriteTutorial']['y']+0xfa;this[_0x12e1('0x10')][_0x12e1('0x24')](this[_0x12e1('0x13')]);this[_0x12e1('0x10')][_0x12e1('0x24')](this[_0x12e1('0x40')]);this[_0x12e1('0x10')][_0x12e1('0x24')](this['buttonPlay']);game['app'][_0x12e1('0xb')][_0x12e1('0x24')](this[_0x12e1('0x10')]);},'ready':function(){this[_0x12e1('0x29')][_0x12e1('0x28')]=function(){this['callback']=null;PP[_0x12e1('0x2a')][_0x12e1('0x3e')](_0x12e1('0x42'),game[_0x12e1('0xf')]);};},'update':function(_0x9499e5,_0x391528){this['buttonPlay']['updateTween']();},'end':function(){this[_0x12e1('0x10')][_0x12e1('0x2e')]({'children':!![]});}};game['stateNotLegal']={'init':function(){this[_0x12e1('0x10')]=new PIXI[(_0x12e1('0x30'))]();this[_0x12e1('0x43')]=new PIXI[(_0x12e1('0x14'))](PIXI[_0x12e1('0x15')][_0x12e1('0x16')](game[_0x12e1('0x17')][_0x12e1('0x44')][_0x12e1('0x19')]));this[_0x12e1('0x43')][_0x12e1('0x1d')]['x']=game['opts'][_0x12e1('0xe')]/0x2;this[_0x12e1('0x43')][_0x12e1('0x1d')]['y']=game[_0x12e1('0x0')]['height']/0x2;this[_0x12e1('0x43')]['anchor'][_0x12e1('0xa')](0.5);this[_0x12e1('0x10')]['addChild'](this[_0x12e1('0x43')]);game[_0x12e1('0x1')][_0x12e1('0xb')][_0x12e1('0x24')](this[_0x12e1('0x10')]);var _0x4c9dff=document[_0x12e1('0x3')]('logo');_0x4c9dff[_0x12e1('0x45')][_0x12e1('0x46')]=_0x12e1('0x47');PP['sounds'][_0x12e1('0x48')](_0x12e1('0x49'));},'end':function(){this['container'][_0x12e1('0x2e')]({'children':!![]});}};game[_0x12e1('0x4a')]={'init':function(){this['container']=new PIXI['Container']();this[_0x12e1('0x4b')]=12.5;this[_0x12e1('0x4c')]=null;this[_0x12e1('0x4d')]={'x':null,'y':null};this['currentAngle']=null;this[_0x12e1('0x4e')]=null;this['distance']=null;this[_0x12e1('0x4f')]=[];this[_0x12e1('0x50')]=0x1e;this[_0x12e1('0x51')]=new PIXI[(_0x12e1('0x14'))](PIXI[_0x12e1('0x15')][_0x12e1('0x16')](game[_0x12e1('0x17')][_0x12e1('0x52')][_0x12e1('0x19')]));this[_0x12e1('0x51')]['anchor'][_0x12e1('0xa')](0.5);this[_0x12e1('0x51')][_0x12e1('0x2d')]['set'](1.05);this[_0x12e1('0x51')][_0x12e1('0x53')]=0x0;this[_0x12e1('0x1b')]=new PIXI[(_0x12e1('0x14'))](PIXI['Texture'][_0x12e1('0x16')](game[_0x12e1('0x17')]['caps']['img']));this[_0x12e1('0x1b')][_0x12e1('0x1a')][_0x12e1('0xa')](0.5);this[_0x12e1('0x1b')][_0x12e1('0x2d')][_0x12e1('0xa')](0.2);this[_0x12e1('0x1b')][_0x12e1('0x38')]=!![];this[_0x12e1('0x1b')]['tweenBase']=0x0;this[_0x12e1('0x54')]=new PIXI[(_0x12e1('0x14'))](PIXI[_0x12e1('0x15')][_0x12e1('0x16')](game['resources'][_0x12e1('0x55')][_0x12e1('0x19')]));this[_0x12e1('0x54')]['anchor']['set'](0.5);this[_0x12e1('0x54')][_0x12e1('0x11')]=0.5;this['spriteCaps']['on'](_0x12e1('0x37'),function(_0x5954e1){if(this[_0x12e1('0x56')]||this['anchoredByUser']||!this[_0x12e1('0x57')])return;this[_0x12e1('0x56')]=!![];});this[_0x12e1('0x1b')]['on']('pointerup',function(_0x346a4f){this[_0x12e1('0x56')]=![];});this[_0x12e1('0x1b')]['on'](_0x12e1('0x58'),function(_0x24a0d8){this[_0x12e1('0x56')]=![];});this[_0x12e1('0x1b')]['on'](_0x12e1('0x59'),function(_0x566512){if(!this[_0x12e1('0x56')]||this[_0x12e1('0x5a')])return;var _0x36d848=_0x566512[_0x12e1('0x5b')][_0x12e1('0x5c')](game['app'][_0x12e1('0xb')]);this[_0x12e1('0x1d')][_0x12e1('0xa')](_0x36d848['x'],_0x36d848['y']);var _0x2fa042=game[_0x12e1('0x4a')][_0x12e1('0x5d')](game[_0x12e1('0x4a')][_0x12e1('0x5e')],this[_0x12e1('0x1d')]);if(_0x2fa042<0x10){this['dragging']=![];this[_0x12e1('0x5a')]=!![];this[_0x12e1('0x1d')][_0x12e1('0xa')](game[_0x12e1('0x4a')][_0x12e1('0x5e')]['x'],game['stateGame'][_0x12e1('0x5e')]['y']);}});this['trail']={'points':[],'length':0x19,'strip':null,'counter':0x0,'timer':0x0,'history':[],'update':function(_0x31bc17,_0x440594,_0x35adef){_0x31bc17[_0x12e1('0x5f')][_0x12e1('0x60')]+=_0x440594*0.005;_0x31bc17['trail'][_0x12e1('0x61')]+=_0x35adef;_0x31bc17['trail'][_0x12e1('0x62')][0x0]['x']=_0x31bc17[_0x12e1('0x5f')][_0x12e1('0x63')][0x0]['x'];_0x31bc17['trail'][_0x12e1('0x62')][0x0]['y']=_0x31bc17[_0x12e1('0x5f')]['points'][0x0]['y'];_0x31bc17[_0x12e1('0x5f')][_0x12e1('0x63')][0x0]['x']=_0x31bc17[_0x12e1('0x1b')][_0x12e1('0x1d')]['x'];_0x31bc17['trail'][_0x12e1('0x63')][0x0]['y']=_0x31bc17[_0x12e1('0x1b')][_0x12e1('0x1d')]['y'];for(var _0x69ae05=0x1;_0x69ae05<_0x31bc17[_0x12e1('0x5f')][_0x12e1('0x64')];_0x69ae05++){var _0x5dbef5=Math[_0x12e1('0x65')]()*(Math['PI']/0x2);var _0x37cad9=0x2+Math[_0x12e1('0x66')](_0x31bc17[_0x12e1('0x5f')][_0x12e1('0x60')])*Math[_0x12e1('0x65')]()*0x3;_0x31bc17[_0x12e1('0x5f')][_0x12e1('0x62')][_0x69ae05]['x']=_0x31bc17['trail'][_0x12e1('0x63')][_0x69ae05]['x']+Math[_0x12e1('0x67')](_0x5dbef5)*_0x37cad9;_0x31bc17['trail'][_0x12e1('0x62')][_0x69ae05]['y']=_0x31bc17[_0x12e1('0x5f')]['points'][_0x69ae05]['y']+Math[_0x12e1('0x66')](_0x5dbef5)*_0x37cad9;_0x31bc17[_0x12e1('0x5f')][_0x12e1('0x63')][_0x69ae05]['x']=_0x31bc17[_0x12e1('0x5f')][_0x12e1('0x62')][_0x69ae05-0x1]['x'];_0x31bc17[_0x12e1('0x5f')][_0x12e1('0x63')][_0x69ae05]['y']=_0x31bc17[_0x12e1('0x5f')][_0x12e1('0x62')][_0x69ae05-0x1]['y'];}}};for(var _0x40ac06=0x0;_0x40ac06<this[_0x12e1('0x5f')][_0x12e1('0x64')];_0x40ac06++){this[_0x12e1('0x5f')]['points']['push'](new PIXI[(_0x12e1('0x68'))](0x0,0x0));this['trail']['history'][_0x12e1('0x69')](new PIXI[(_0x12e1('0x68'))](0x0,0x0));}this['trail'][_0x12e1('0x6a')]=new PIXI[(_0x12e1('0x6b'))](PIXI[_0x12e1('0x15')][_0x12e1('0x16')](game[_0x12e1('0x17')][_0x12e1('0x5f')][_0x12e1('0x19')]),this[_0x12e1('0x5f')]['points']);this[_0x12e1('0x5f')][_0x12e1('0x6a')]['position']['x']=0x0;this[_0x12e1('0x5f')]['strip'][_0x12e1('0x1d')]['y']=0x0;this[_0x12e1('0x5f')]['strip'][_0x12e1('0x11')]=0.2;this[_0x12e1('0x10')][_0x12e1('0x24')](this[_0x12e1('0x51')]);this['container'][_0x12e1('0x24')](this['spriteTwinkle']);this[_0x12e1('0x10')]['addChild'](this[_0x12e1('0x5f')]['strip']);this[_0x12e1('0x10')][_0x12e1('0x24')](this[_0x12e1('0x1b')]);game[_0x12e1('0x1')][_0x12e1('0xb')]['addChild'](this[_0x12e1('0x10')]);this[_0x12e1('0x6c')]=function(){return this[_0x12e1('0x4b')]+Math[_0x12e1('0x65')]();};this[_0x12e1('0x6d')]=function(_0x264ff8){var _0x2c6dc1=-game[_0x12e1('0x1')]['stage']['x']*(0x1/game[_0x12e1('0x1')]['stage'][_0x12e1('0x2d')]['x']);var _0x2e866a=-game[_0x12e1('0x1')]['stage']['y']*(0x1/game[_0x12e1('0x1')][_0x12e1('0xb')][_0x12e1('0x2d')]['y']);_0x264ff8['x']=_0x2c6dc1+Math['random']()*(game['app'][_0x12e1('0x8')][_0x12e1('0xe')]*(0x1/game[_0x12e1('0x1')]['stage']['scale']['x'])+Math[_0x12e1('0x6e')](_0x2c6dc1));_0x264ff8['y']=_0x2e866a+Math['random']()*(game['app']['renderer'][_0x12e1('0x9')]*(0x1/game[_0x12e1('0x1')][_0x12e1('0xb')][_0x12e1('0x2d')]['y'])+Math[_0x12e1('0x6e')](_0x2e866a));};this[_0x12e1('0x6f')]=function(_0x41023b,_0x5bd9c3){return Math[_0x12e1('0x70')](_0x5bd9c3['y']-_0x41023b['y'],_0x5bd9c3['x']-_0x41023b['x']);};this[_0x12e1('0x5d')]=function(_0x52d53e,_0x433263){var _0x4257a3=_0x433263['x']-_0x52d53e['x'];var _0x338fd8=_0x433263['y']-_0x52d53e['y'];return Math['round'](Math['sqrt'](Math[_0x12e1('0x71')](_0x4257a3,0x2)+Math['pow'](_0x338fd8,0x2)));};this[_0x12e1('0x72')]=function(_0x5e6e0f,_0x3acc6c){var _0x2483db={'x':Math[_0x12e1('0x67')](_0x3acc6c)*_0x5e6e0f,'y':Math[_0x12e1('0x66')](_0x3acc6c)*_0x5e6e0f};return _0x2483db;};this[_0x12e1('0x4c')]=0x0;this[_0x12e1('0x73')]=0x0;this[_0x12e1('0x74')]=0x0;this[_0x12e1('0x4e')]=0x0;this['intervals'][_0x12e1('0x69')](window[_0x12e1('0x75')](function(){if(PP[_0x12e1('0x2a')]['paused']||game[_0x12e1('0x4a')][_0x12e1('0x50')]<=0x0||!game[_0x12e1('0x4a')][_0x12e1('0x1b')][_0x12e1('0x57')]||game[_0x12e1('0x4a')][_0x12e1('0x1b')][_0x12e1('0x5a')])return;game[_0x12e1('0x4a')][_0x12e1('0x4b')]-=0.25;game[_0x12e1('0x4a')][_0x12e1('0x50')]-=0x1;timer[_0x12e1('0x76')](game[_0x12e1('0x4a')][_0x12e1('0x50')]);if(game['stateGame'][_0x12e1('0x50')]<=0x0){game[_0x12e1('0x4a')][_0x12e1('0x77')]();}},0x3e8));this[_0x12e1('0x78')]=document[_0x12e1('0x3')](_0x12e1('0x61'));this[_0x12e1('0x78')][_0x12e1('0x45')][_0x12e1('0x46')]=_0x12e1('0x79');this[_0x12e1('0x78')][_0x12e1('0x45')][_0x12e1('0x7a')]=0x0;timer[_0x12e1('0x76')](this[_0x12e1('0x50')]);PP['sounds']['stop'](_0x12e1('0x49'));PP[_0x12e1('0x26')]['play'](_0x12e1('0x7b'),!![]);},'ready':function(){},'success':function(){PP[_0x12e1('0x2a')][_0x12e1('0x3e')](_0x12e1('0x7c'),game['stateTransitionFunction']);this[_0x12e1('0x78')]['style']['display']=_0x12e1('0x47');},'fail':function(){PP[_0x12e1('0x2a')][_0x12e1('0x3e')](_0x12e1('0x7d'),game[_0x12e1('0xf')]);this[_0x12e1('0x78')][_0x12e1('0x45')][_0x12e1('0x46')]=_0x12e1('0x47');},'update':function(_0x11e92e,_0x241125){if(this[_0x12e1('0x10')]['y']<0x0){this[_0x12e1('0x10')]['x']=-this[_0x12e1('0x10')]['y'];this[_0x12e1('0x10')]['y']=0x0;}if(this[_0x12e1('0x10')][_0x12e1('0x11')]<0x1)this[_0x12e1('0x78')][_0x12e1('0x45')][_0x12e1('0x7a')]=this[_0x12e1('0x10')]['alpha'];this[_0x12e1('0x5f')][_0x12e1('0x76')](this,_0x11e92e,_0x241125);this[_0x12e1('0x51')][_0x12e1('0x1d')]['x']=game[_0x12e1('0x1')][_0x12e1('0xb')]['x']+game[_0x12e1('0x0')][_0x12e1('0xe')]/0x2+0x96;this[_0x12e1('0x51')][_0x12e1('0x1d')]['y']=game['app'][_0x12e1('0xb')]['y']+game[_0x12e1('0x0')]['height']/0x2+0x55;this[_0x12e1('0x5e')]={'x':this['spritePack'][_0x12e1('0x1d')]['x']+0xc,'y':this[_0x12e1('0x51')][_0x12e1('0x1d')]['y']-0x2c};this[_0x12e1('0x54')][_0x12e1('0x1d')]['x']=this['originalPoint']['x'];this[_0x12e1('0x54')][_0x12e1('0x1d')]['y']=this[_0x12e1('0x5e')]['y'];if(!this['spriteCaps'][_0x12e1('0x57')]){this[_0x12e1('0x1b')]['position']['x']=this[_0x12e1('0x5e')]['x'];this[_0x12e1('0x1b')][_0x12e1('0x1d')]['y']=this[_0x12e1('0x5e')]['y'];for(var _0x48819c=0x0;_0x48819c<this[_0x12e1('0x5f')][_0x12e1('0x64')];_0x48819c++){this[_0x12e1('0x5f')][_0x12e1('0x63')][_0x48819c]['x']=this['spriteCaps'][_0x12e1('0x1d')]['x'];this['trail']['points'][_0x48819c]['y']=this[_0x12e1('0x1b')][_0x12e1('0x1d')]['y'];this[_0x12e1('0x5f')][_0x12e1('0x62')][_0x48819c]['x']=this['spriteCaps'][_0x12e1('0x1d')]['x'];this[_0x12e1('0x5f')][_0x12e1('0x62')][_0x48819c]['y']=this[_0x12e1('0x1b')][_0x12e1('0x1d')]['y'];}if(this['spriteCaps'][_0x12e1('0x2d')]['x']>=0.8)this[_0x12e1('0x1b')][_0x12e1('0x57')]=!![];}this[_0x12e1('0x1b')][_0x12e1('0x53')]+=0.2*_0x11e92e;this[_0x12e1('0x1b')]['scaleTween']=Math['sin'](this[_0x12e1('0x1b')][_0x12e1('0x53')]);this[_0x12e1('0x54')][_0x12e1('0x2d')][_0x12e1('0xa')](0x1+this[_0x12e1('0x1b')][_0x12e1('0x7e')]*0x1);this[_0x12e1('0x51')][_0x12e1('0x53')]+=0.04*_0x11e92e;this['spritePack']['skewTween']=Math['sin'](this[_0x12e1('0x51')][_0x12e1('0x53')]);this[_0x12e1('0x51')][_0x12e1('0x7f')]['x']=this[_0x12e1('0x51')][_0x12e1('0x80')]*0.004;if(this[_0x12e1('0x1b')]['anchoredByUser']){this[_0x12e1('0x1b')]['position']['x']=this[_0x12e1('0x5e')]['x'];this[_0x12e1('0x1b')]['position']['y']=this['originalPoint']['y'];this[_0x12e1('0x1b')][_0x12e1('0x2d')][_0x12e1('0xa')](PP['lerp'](this[_0x12e1('0x1b')][_0x12e1('0x2d')]['x'],0.22,0.017*_0x11e92e));this['spriteCaps'][_0x12e1('0x81')]=PP['lerp'](this[_0x12e1('0x1b')][_0x12e1('0x81')],Math['PI']*0x8,0.04*_0x11e92e);this[_0x12e1('0x1b')]['skew']['x']=this[_0x12e1('0x51')][_0x12e1('0x7f')]['x'];this[_0x12e1('0x5f')][_0x12e1('0x6a')]['alpha']=PP[_0x12e1('0x82')](this[_0x12e1('0x5f')][_0x12e1('0x6a')][_0x12e1('0x11')],0x0,0.01*_0x11e92e);if(this[_0x12e1('0x1b')][_0x12e1('0x2d')]['x']<=0.23){this[_0x12e1('0x83')]();}return;};this[_0x12e1('0x1b')][_0x12e1('0x2d')][_0x12e1('0xa')](Math['round'](PP[_0x12e1('0x84')](this['spriteCaps']['scale']['x'],0.8+0.8*this[_0x12e1('0x1b')][_0x12e1('0x7e')],0.015*_0x11e92e)*0x64)/0x64);if(this['spriteCaps'][_0x12e1('0x56')]||!this[_0x12e1('0x1b')]['released'])return;this['currentAngle']=PP[_0x12e1('0x84')](this[_0x12e1('0x74')],this[_0x12e1('0x4e')],0.15*_0x11e92e);var _0x1fb45e=this[_0x12e1('0x72')](this[_0x12e1('0x4c')]*_0x11e92e,this['currentAngle']);this[_0x12e1('0x1b')][_0x12e1('0x1d')]['set'](this[_0x12e1('0x1b')][_0x12e1('0x1d')]['x']+_0x1fb45e['x'],this['spriteCaps']['position']['y']+_0x1fb45e['y']);this[_0x12e1('0x73')]-=this[_0x12e1('0x4c')]*_0x11e92e;if(this[_0x12e1('0x73')]<=0x0){this[_0x12e1('0x6d')](this[_0x12e1('0x4d')]);this[_0x12e1('0x4e')]=this[_0x12e1('0x6f')](this[_0x12e1('0x1b')][_0x12e1('0x1d')],this[_0x12e1('0x4d')]);this[_0x12e1('0x73')]=this[_0x12e1('0x5d')](this['point'],this[_0x12e1('0x1b')][_0x12e1('0x1d')]);this[_0x12e1('0x4c')]=this[_0x12e1('0x6c')]();}},'end':function(){this[_0x12e1('0x10')]['destroy']({'children':!![]});this[_0x12e1('0x4f')][_0x12e1('0x85')](function(_0x10254f){window[_0x12e1('0x86')](_0x10254f);});}};game[_0x12e1('0x87')]={'init':function(){this[_0x12e1('0x10')]=new PIXI['Container']();this['sprite']=new PIXI[(_0x12e1('0x14'))](PIXI[_0x12e1('0x15')][_0x12e1('0x16')](game[_0x12e1('0x17')][_0x12e1('0x7d')][_0x12e1('0x19')]));this['sprite'][_0x12e1('0x1d')]['x']=game[_0x12e1('0x0')][_0x12e1('0xe')]/0x2;this[_0x12e1('0x88')]['position']['y']=0x46;this[_0x12e1('0x88')][_0x12e1('0x1a')]['set'](0.5,0x0);this[_0x12e1('0x89')]=new PixiButton(PIXI['Texture'][_0x12e1('0x16')](game[_0x12e1('0x17')][_0x12e1('0x8a')]['img']));this[_0x12e1('0x89')][_0x12e1('0x1d')]['x']=game[_0x12e1('0x0')]['width']/0x2;this[_0x12e1('0x89')][_0x12e1('0x1d')]['y']=this['sprite']['y']+this['sprite'][_0x12e1('0x9')]+0xdc;this[_0x12e1('0x10')][_0x12e1('0x24')](this[_0x12e1('0x88')]);this[_0x12e1('0x10')][_0x12e1('0x24')](this['buttonPlayAgain']);game[_0x12e1('0x1')][_0x12e1('0xb')][_0x12e1('0x24')](this[_0x12e1('0x10')]);PP[_0x12e1('0x26')][_0x12e1('0x48')](_0x12e1('0x7b'));PP[_0x12e1('0x26')]['play'](_0x12e1('0x49'),!![]);},'ready':function(){this[_0x12e1('0x89')][_0x12e1('0x28')]=function(){this[_0x12e1('0x28')]=null;PP[_0x12e1('0x2a')][_0x12e1('0x3e')](_0x12e1('0x42'),game[_0x12e1('0xf')]);};},'update':function(_0x4c58a9,_0x3a703f){this[_0x12e1('0x89')][_0x12e1('0x2c')]();},'end':function(){this[_0x12e1('0x10')]['destroy']({'children':!![]});}};game[_0x12e1('0x8b')]={'init':function(){this[_0x12e1('0x10')]=new PIXI[(_0x12e1('0x30'))]();this[_0x12e1('0x88')]=new PIXI[(_0x12e1('0x14'))](PIXI[_0x12e1('0x15')][_0x12e1('0x16')](game[_0x12e1('0x17')][_0x12e1('0x7c')][_0x12e1('0x19')]));this['sprite'][_0x12e1('0x1d')]['x']=game[_0x12e1('0x0')][_0x12e1('0xe')]/0x2;this[_0x12e1('0x88')][_0x12e1('0x1d')]['y']=0x64;this[_0x12e1('0x88')][_0x12e1('0x1a')][_0x12e1('0xa')](0.5,0x0);this[_0x12e1('0x8c')]=new PIXI[(_0x12e1('0x14'))](PIXI[_0x12e1('0x15')][_0x12e1('0x16')](game[_0x12e1('0x17')][_0x12e1('0x8d')][_0x12e1('0x19')]));this[_0x12e1('0x8c')][_0x12e1('0x1d')]['x']=game['opts']['width']/0x2;this[_0x12e1('0x8c')][_0x12e1('0x1d')]['y']=this[_0x12e1('0x88')][_0x12e1('0x1d')]['y']+this[_0x12e1('0x88')][_0x12e1('0x9')]+0x4b;this[_0x12e1('0x8c')][_0x12e1('0x1a')][_0x12e1('0xa')](0.5,0x0);this[_0x12e1('0x10')]['addChild'](this[_0x12e1('0x88')]);this[_0x12e1('0x10')][_0x12e1('0x24')](this['spriteBackground']);game['app'][_0x12e1('0xb')]['addChild'](this[_0x12e1('0x10')]);PP[_0x12e1('0x26')][_0x12e1('0x48')](_0x12e1('0x7b'));PP[_0x12e1('0x26')][_0x12e1('0x8e')]('theme',!![]);},'ready':function(){},'update':function(_0xbbc8a,_0x1c2091){},'end':function(){this[_0x12e1('0x10')][_0x12e1('0x2e')]({'children':!![]});}};var timer={};var createTimer=function(){timer['spritesheet']=new PP[(_0x12e1('0x8f'))](game[_0x12e1('0x17')][_0x12e1('0x90')][_0x12e1('0x19')],game[_0x12e1('0x17')]['sprite-font-json'][_0x12e1('0x91')]);timer[_0x12e1('0x92')]=new PP[(_0x12e1('0x93'))](game[_0x12e1('0x17')][_0x12e1('0x94')][_0x12e1('0x19')]);timer[_0x12e1('0x95')]=new PP[(_0x12e1('0x96'))]({'width':0x7a,'height':0x4c},{'alpha':![]});timer[_0x12e1('0x95')]['addDrawable'](timer['background']);timer[_0x12e1('0x92')][_0x12e1('0x97')]['x']=0x0;timer[_0x12e1('0x92')][_0x12e1('0x97')]['y']=0x0;timer[_0x12e1('0x98')]=[];timer['head'][_0x12e1('0x69')](timer[_0x12e1('0x99')]['getFrameAsDrawable'](_0x12e1('0x9a')));timer['head']['push'](timer['spritesheet'][_0x12e1('0x9b')]('0.png'));timer[_0x12e1('0x98')][_0x12e1('0x69')](timer[_0x12e1('0x99')][_0x12e1('0x9b')](_0x12e1('0x9c')));var _0x5b4527=0x0;for(var _0x56abcc=0x0;_0x56abcc<0x3;_0x56abcc++){timer[_0x12e1('0x98')][_0x56abcc]['position']['x']=0x18+_0x5b4527;timer[_0x12e1('0x98')][_0x56abcc][_0x12e1('0x1d')]['y']=timer['drawingSpace'][_0x12e1('0x9d')][_0x12e1('0x9')]/0x2;timer[_0x12e1('0x95')][_0x12e1('0x9e')](timer[_0x12e1('0x98')][_0x56abcc]);_0x5b4527+=0x14;if(_0x56abcc==0x1)_0x5b4527-=0x3;}timer[_0x12e1('0x9f')]=[[],[]];for(_0x56abcc=0x0;_0x56abcc<=0x3;_0x56abcc++){timer[_0x12e1('0x9f')][0x0]['push'](timer[_0x12e1('0x99')][_0x12e1('0x9b')](_0x56abcc+_0x12e1('0xa0')));timer[_0x12e1('0x9f')][0x0][_0x56abcc][_0x12e1('0x1d')]['x']=0x16+_0x5b4527;timer[_0x12e1('0x9f')][0x0][_0x56abcc][_0x12e1('0x1d')]['y']=timer[_0x12e1('0x95')][_0x12e1('0x9d')][_0x12e1('0x9')]/0x2;}for(_0x56abcc=0x0;_0x56abcc<=0x9;_0x56abcc++){timer[_0x12e1('0x9f')][0x1][_0x12e1('0x69')](timer[_0x12e1('0x99')][_0x12e1('0x9b')](_0x56abcc+_0x12e1('0xa0')));timer[_0x12e1('0x9f')][0x1][_0x56abcc][_0x12e1('0x1d')]['x']=0x16+_0x5b4527+0x14;timer[_0x12e1('0x9f')][0x1][_0x56abcc][_0x12e1('0x1d')]['y']=timer[_0x12e1('0x95')][_0x12e1('0x9d')]['height']/0x2;}timer[_0x12e1('0xa1')]=[timer['body'][0x0][0x2],timer[_0x12e1('0x9f')][0x1][0x0]];timer[_0x12e1('0x95')][_0x12e1('0x9e')](timer[_0x12e1('0x9f')][0x0][0x2],timer[_0x12e1('0x9f')][0x1][0x0]);var _0x23181b=document[_0x12e1('0x3')]('timer');_0x23181b[_0x12e1('0x5')](timer[_0x12e1('0x95')][_0x12e1('0xa2')]);timer['onresize']=function(_0x583feb,_0x5635e7){var _0x102517=timer['drawingSpace'][_0x12e1('0x9d')][_0x12e1('0xe')]/game[_0x12e1('0x0')][_0x12e1('0xe')];var _0x523e4b=timer[_0x12e1('0x95')]['options']['width']/_0x583feb;var _0x349cbb=_0x102517/_0x523e4b;_0x23181b[_0x12e1('0x45')][_0x12e1('0xa3')]='scale('+_0x349cbb+')';_0x23181b['style'][_0x12e1('0xa4')]=0x19+timer[_0x12e1('0x95')][_0x12e1('0x9d')]['width']*_0x349cbb+'px';};timer[_0x12e1('0x76')]=function(_0x316746){var _0x4cd18c=Math[_0x12e1('0xa5')](_0x316746/0xa);var _0x44a71c=_0x316746%0xa;timer[_0x12e1('0x95')][_0x12e1('0xa6')](timer[_0x12e1('0xa1')][0x0],timer[_0x12e1('0xa1')][0x1]);timer[_0x12e1('0x95')]['addDrawable'](timer['body'][0x0][_0x4cd18c],timer[_0x12e1('0x9f')][0x1][_0x44a71c]);timer[_0x12e1('0x95')]['redraw']();};timer[_0x12e1('0x76')](0x1e);timer[_0x12e1('0x7')](window[_0x12e1('0xa7')],window[_0x12e1('0xa8')]);};PP['states'][_0x12e1('0xa9')](_0x12e1('0xaa'),game['stateMenu']);PP['states']['add'](_0x12e1('0x2b'),game[_0x12e1('0x2f')]);PP['states']['add'](_0x12e1('0x3b'),game[_0x12e1('0x3f')]);PP['states'][_0x12e1('0xa9')](_0x12e1('0x3c'),game['stateNotLegal']);PP[_0x12e1('0x2a')]['add'](_0x12e1('0x42'),game[_0x12e1('0x4a')]);PP[_0x12e1('0x2a')][_0x12e1('0xa9')](_0x12e1('0x7d'),game[_0x12e1('0x87')]);PP[_0x12e1('0x2a')]['add'](_0x12e1('0x7c'),game[_0x12e1('0x8b')]);game['loader']=new PP['Loader']();game[_0x12e1('0xab')][_0x12e1('0xa9')](_0x12e1('0x18'),_0x12e1('0xac'),_0x12e1('0x19'))[_0x12e1('0xa9')](_0x12e1('0x5f'),'files/trail.png','img')[_0x12e1('0xa9')](_0x12e1('0x3b'),_0x12e1('0xad'),_0x12e1('0x19'))[_0x12e1('0xa9')]('tutorial-title','files/tutorial-title.png',_0x12e1('0x19'))[_0x12e1('0xa9')](_0x12e1('0x44'),_0x12e1('0xae'),_0x12e1('0x19'))[_0x12e1('0xa9')](_0x12e1('0x33'),_0x12e1('0xaf'),_0x12e1('0x19'))['add']('no',_0x12e1('0xb0'),_0x12e1('0x19'))[_0x12e1('0xa9')](_0x12e1('0x36'),'files/tick.png',_0x12e1('0x19'))['add']('are-u-legal',_0x12e1('0xb1'),_0x12e1('0x19'))[_0x12e1('0xa9')](_0x12e1('0x41'),_0x12e1('0xb2'),_0x12e1('0x19'))[_0x12e1('0xa9')](_0x12e1('0x1f'),_0x12e1('0xb3'),_0x12e1('0x19'))[_0x12e1('0xa9')]('button-sound-off',_0x12e1('0xb4'),_0x12e1('0x19'))[_0x12e1('0xa9')](_0x12e1('0x90'),_0x12e1('0xb5'),_0x12e1('0x19'))[_0x12e1('0xa9')](_0x12e1('0xb6'),_0x12e1('0xb7'))[_0x12e1('0xa9')](_0x12e1('0x52'),_0x12e1('0xb8'),_0x12e1('0x19'))[_0x12e1('0xa9')](_0x12e1('0x1c'),_0x12e1('0xb9'),'img')[_0x12e1('0xa9')](_0x12e1('0x55'),_0x12e1('0xba'),'img')[_0x12e1('0xa9')](_0x12e1('0x7c'),'files/congratz.png',_0x12e1('0x19'))[_0x12e1('0xa9')](_0x12e1('0x8d'),_0x12e1('0xbb'),_0x12e1('0x19'))[_0x12e1('0xa9')](_0x12e1('0x94'),'files/timer-background.png',_0x12e1('0x19'))[_0x12e1('0xa9')](_0x12e1('0x7d'),_0x12e1('0xbc'),_0x12e1('0x19'))[_0x12e1('0xa9')](_0x12e1('0x8a'),_0x12e1('0xbd'),_0x12e1('0x19'))[_0x12e1('0xa9')](_0x12e1('0x7b'),_0x12e1('0xbe'),_0x12e1('0xbf'))[_0x12e1('0xa9')](_0x12e1('0x49'),_0x12e1('0xc0'),_0x12e1('0xbf'));game[_0x12e1('0xab')][_0x12e1('0xc1')](function(_0x62267c,_0x4478fa){_0x62267c=Math[_0x12e1('0xd')](_0x62267c*0x64);var _0x40d231=document[_0x12e1('0x3')]('preloader-text');_0x40d231[_0x12e1('0xc2')]=_0x62267c+'%';},function(_0x264645){var _0x3c64e1=document['getElementById'](_0x12e1('0xc3'));_0x3c64e1[_0x12e1('0xc2')]=_0x12e1('0xc4');document[_0x12e1('0x9f')][_0x12e1('0xc5')]=function(){document['body'][_0x12e1('0xc5')]=null;document[_0x12e1('0x3')](_0x12e1('0xc6'))[_0x12e1('0x45')][_0x12e1('0x46')]=_0x12e1('0x47');PP[_0x12e1('0x26')]['play'](_0x12e1('0x49'),!![]);};game[_0x12e1('0x17')]=_0x264645;createTimer();PP['sounds']['add'](_0x12e1('0x7b'),_0x264645[_0x12e1('0x7b')][_0x12e1('0xbf')]);PP['sounds']['add'](_0x12e1('0x49'),_0x264645[_0x12e1('0x49')][_0x12e1('0xbf')]);PP[_0x12e1('0x2a')][_0x12e1('0x3e')](_0x12e1('0xaa'));});
+var game = {};
+
+game.opts = {
+    width: 1152,
+    height: 640,
+    forceFXAA: true,
+    antialias: true,
+    legacy: true,
+    transparent: false,
+    clearBeforeRender: false
+};
+
+game.app = new PIXI.Application(game.opts);
+
+game.onresize = function(parentWidth, parentHeight) {
+    game.app.renderer.resize(parentWidth, parentHeight);
+    var scaleX = parentWidth  / game.opts.width;
+    var scaleY = parentHeight / game.opts.height;
+    var scale  = Math.round(Math.min(scaleX, scaleY) * 1000) / 1000;
+    game.app.scene.scale.set(scale);
+
+    var marginX = parentWidth - Math.round(game.opts.width * scale);
+    game.app.scene.x = marginX / 2;
+    var marginY = parentHeight - Math.round(game.opts.height * scale);
+    game.app.scene.y = marginY / 2;
+
+    var background = {
+        aspectRatio: {
+            original: game.background.sprite.texture.width / game.background.sprite.texture.height,
+            now: 0,
+            deviation: 0
+        },
+        calculatedScale: {
+            x: parentWidth  / game.background.sprite.texture.width,
+            y: parentHeight / game.background.sprite.texture.height
+        },
+        niceScale: {
+            x: 0,
+            y: 0
+        }
+    };
+
+    background.aspectRatio.now = background.calculatedScale.x / background.calculatedScale.y;
+    background.aspectRatio.deviation = Math.abs(1 - (background.aspectRatio.now / background.aspectRatio.original));
+    background.niceScale.x = background.calculatedScale.x;
+    background.niceScale.y = background.calculatedScale.y;
+
+    if(background.aspectRatio.deviation > 0.3) {
+        if(background.aspectRatio.now < background.aspectRatio.original) {
+            background.niceScale.x = background.calculatedScale.x * (1 + background.aspectRatio.deviation);
+        }
+        else {
+            background.niceScale.y = background.calculatedScale.y * (1 + background.aspectRatio.deviation);
+        }
+    }
+
+    game.background.sprite.scale.x = background.niceScale.x;
+    game.background.sprite.scale.y = background.niceScale.y;
+    game.background.sprite.position.x = -(game.background.sprite.width  - parentWidth);
+    game.background.sprite.position.y = -(game.background.sprite.height - parentHeight);
+
+    game.bounds = {
+        left: 0 - game.app.scene.x * (1 / game.app.scene.scale.x),
+        top: 0 - game.app.scene.y * (1 / game.app.scene.scale.y),
+        right: 0,
+        bottom: 0
+    };
+    game.bounds.right = game.bounds.left + game.app.renderer.width * (1 / game.app.scene.scale.x);
+    game.bounds.bottom = game.bounds.top + game.app.renderer.height * (1 / game.app.scene.scale.y);
+
+    game.background.spriteLogo.anchor.set(0.5);
+    game.background.spriteLogo.position.x = game.bounds.right - game.background.spriteLogo.width / 1.25;
+    game.background.spriteLogo.position.y = game.bounds.bottom - game.background.spriteLogo.height / 1;
+};
+
+game.stateTransitionFunction = function(a, previousState, currentState) {
+    if(!previousState.container || !currentState.container) return;
+    currentState.container.alpha = a;
+    currentState.container.y = -8 * (1 - a);
+    previousState.container.alpha = 0;
+};
+
+game.stateMenu = {
+    init: function() {
+        var self = this;
+        this.container = new PIXI.Container();
+
+        this.spriteTitle = new PIXI.Sprite(PIXI.Texture.from(game.resources["title"].img));
+        this.spriteTitle.x = game.opts.width  / 2;
+        this.spriteTitle.y = game.opts.height / 2 - 100;
+        this.spriteTitle.anchor.set(0.5);
+
+        this.spriteCaps = new PIXI.Sprite(PIXI.Texture.from(game.resources["caps"].img));
+        this.spriteCaps.x = game.opts.width / 2 + 230;
+        this.spriteCaps.y = 45;
+
+        this.buttonPlay = new PixiButton(PIXI.Texture.from(game.resources["button-play"].img));
+        this.buttonPlay.position.x = game.opts.width  / 2;
+        this.buttonPlay.position.y = game.opts.height / 2 + 196;
+
+        this.buttonSoundOn = new PixiButton(PIXI.Texture.from(game.resources["button-sound-on"].img));
+        this.buttonSoundOn.addToScale = 0;
+        this.buttonSoundOn.scaleRatio = 0.8;
+
+        this.buttonSoundOff = new PixiButton(PIXI.Texture.from(game.resources["button-sound-off"].img));
+        this.buttonSoundOff.addToScale = 0;
+        this.buttonSoundOff.scaleRatio = this.buttonSoundOn.scaleRatio;
+        this.buttonSoundOff.visible = false;
+
+        this.container.addChild(this.spriteTitle);
+        this.container.addChild(this.spriteCaps);
+        this.container.addChild(this.buttonPlay);
+        this.container.addChild(this.buttonSoundOn);
+        this.container.addChild(this.buttonSoundOff);
+        game.app.scene.addChild(this.container);
+
+        this.buttonSoundOn.callback = function() {
+            self.buttonSoundOn.visible  = false;
+            self.buttonSoundOff.visible = true;
+            PP.sounds.setVolume(0);
+        };
+
+        this.buttonSoundOff.callback = function() {
+            self.buttonSoundOn.visible  = true;
+            self.buttonSoundOff.visible = false;
+            PP.sounds.setVolume(1);
+        };
+
+        //this.debug = new PIXI.Graphics();
+        //this.container.addChild(this.debug);
+    },
+    ready: function() {
+        this.buttonPlay.callback = function() {
+            this.callback = null;
+            PP.states.start("age-check", game.stateTransitionFunction);
+        };
+    },
+    update: function(ratio, elapsed) {
+        //this.debug.clear();
+        //this.debug.beginFill(0xFF0044);
+        //this.debug.drawRect(game.bounds.left - 16, game.bounds.bottom - 16, 32, 32);
+        //this.debug.endFill();
+        this.buttonPlay.updateTween();
+        this.buttonSoundOn.updateTween();
+        this.buttonSoundOff.updateTween();
+        this.buttonSoundOn.position.x  = game.bounds.left + this.buttonSoundOn.texture.width / 1;
+        this.buttonSoundOff.position.x = this.buttonSoundOn.position.x;
+        this.buttonSoundOn.position.y  = game.bounds.bottom - this.buttonSoundOn.texture.height / 1.25;
+        this.buttonSoundOff.position.y = this.buttonSoundOn.position.y;
+    },
+    end: function() {
+        this.container.destroy({children: true});
+    }
+};
+
+game.stateAgeCheck = {
+    init: function() {
+        var self = this;
+        this.nextState = null;
+        this.container = new PIXI.Container();
+
+        this.spriteAreYouLegal = new PIXI.Sprite(PIXI.Texture.from(game.resources["are-u-legal"].img));
+        this.spriteAreYouLegal.position.x = game.opts.width / 2;
+        this.spriteAreYouLegal.position.y = 300;
+        this.spriteAreYouLegal.anchor.set(0.5, 1);
+
+        this.spriteYes = new PIXI.Sprite(PIXI.Texture.from(game.resources["yes"].img));
+        this.spriteYes.position.x = game.opts.width / 2;
+        this.spriteYes.position.y = this.spriteAreYouLegal.y + 150;
+        this.spriteYes.anchor.set(0.5, 1);
+
+        this.spriteNo = new PIXI.Sprite(PIXI.Texture.from(game.resources["no"].img));
+        this.spriteNo.position.x = game.opts.width / 2 + 16;
+        this.spriteNo.position.y = this.spriteYes.y + 150;
+        this.spriteNo.anchor.set(0.5, 1);
+
+        this.spriteTick = new PIXI.Sprite(PIXI.Texture.from(game.resources["tick"].img));
+        this.spriteTick.anchor.set(0.5);
+        this.spriteTick.visible = false;
+
+        this.container.addChild(this.spriteAreYouLegal);
+        this.container.addChild(this.spriteYes);
+        this.container.addChild(this.spriteNo);
+        this.container.addChild(this.spriteTick);
+        game.app.scene.addChild(this.container);
+
+        this.spriteYes.on("pointerdown", function() {
+            self.spriteTick.visible = true;
+            self.spriteTick.position.x = self.spriteYes.position.x + 115;
+            self.spriteTick.position.y = self.spriteYes.position.y - 58;
+
+            self.spriteYes.interactive = false;
+            self.spriteNo.interactive = false;
+
+            window.setTimeout(function() {
+                self.nextState = "tutorial";
+            }, 250);
+        });
+
+        this.spriteNo.on("pointerdown", function() {
+            self.spriteTick.visible = true;
+            self.spriteTick.position.x = self.spriteNo.position.x + 100;
+            self.spriteTick.position.y = self.spriteNo.position.y - 58;
+
+            self.spriteYes.interactive = false;
+            self.spriteNo.interactive = false;
+
+            window.setTimeout(function() {
+                self.nextState = "not-legal";
+            }, 250);
+        });
+
+        this.spriteYes.interactive = true;
+        this.spriteNo.interactive = true;
+    },
+    ready: function() {
+        this.transitionDone = true;
+    },
+    update: function(ratio, elapsed) {
+        if(this.nextState != null && this.transitionDone) {
+            PP.states.start(this.nextState, game.stateTransitionFunction);
+            this.nextState = null;
+        }
+    },
+    end: function() {
+        this.container.destroy({children: true});
+    }
+};
+
+game.stateTutorial = {
+    init: function() {
+        this.container = new PIXI.Container();
+
+        this.spriteTitle = new PIXI.Sprite(PIXI.Texture.from(game.resources["tutorial-title"].img));
+        this.spriteTitle.position.x = game.opts.width / 2;
+        this.spriteTitle.position.y = 220;
+        this.spriteTitle.anchor.set(0.5, 1);
+
+        this.spriteTutorial = new PIXI.Sprite(PIXI.Texture.from(game.resources["tutorial"].img));
+        this.spriteTutorial.position.x = game.opts.width / 2;
+        this.spriteTutorial.position.y = this.spriteTitle.y + 40;
+        this.spriteTutorial.anchor.set(0.5, 0);
+        this.spriteTutorial.scale.set(0.75);
+
+        this.buttonPlay = new PixiButton(PIXI.Texture.from(game.resources["button-play"].img));
+        this.buttonPlay.position.x = game.opts.width / 2;
+        this.buttonPlay.position.y = this.spriteTutorial.y + 250;
+
+        this.container.addChild(this.spriteTitle);
+        this.container.addChild(this.spriteTutorial);
+        this.container.addChild(this.buttonPlay);
+        game.app.scene.addChild(this.container);
+    },
+    ready: function() {
+        this.buttonPlay.callback = function() {
+            this.callback = null;
+            PP.states.start("game", game.stateTransitionFunction);
+        };
+    },
+    update: function(ratio, elapsed) {
+        this.buttonPlay.updateTween();
+    },
+    end: function() {
+        this.container.destroy({children: true});
+    }
+};
+
+game.stateNotLegal = {
+    init: function() {
+        this.container = new PIXI.Container();
+
+        this.spriteSorry = new PIXI.Sprite(PIXI.Texture.from(game.resources["sorry"].img));
+        this.spriteSorry.position.x = game.opts.width / 2;
+        this.spriteSorry.position.y = game.opts.height / 2;
+        this.spriteSorry.anchor.set(0.5);
+
+        this.container.addChild(this.spriteSorry);
+        game.app.scene.addChild(this.container);
+
+        var logoDiv = document.getElementById("logo");
+        logoDiv.style.display = "none";
+
+        PP.sounds.stop("theme");
+    },
+    end: function() {
+        this.container.destroy({children: true});
+    }
+};
+
+game.stateGame = {
+    init: function() {
+        this.container = new PIXI.Container();
+
+        this.baseSpeed = 12.5;
+        this.speed = null;
+        this.point = {x:null, y:null};
+        this.currentAngle = null;
+        this.angle = null;
+        this.distance = null;
+        this.intervals = [];
+        this.seconds = 30;
+
+        this.spritePack = new PIXI.Sprite(PIXI.Texture.from(game.resources["pack"].img));
+        this.spritePack.anchor.set(0.5);
+        this.spritePack.scale.set(1.05);
+        this.spritePack.tweenBase = 0;
+
+        this.spriteCaps = new PIXI.Sprite(PIXI.Texture.from(game.resources["caps"].img));
+        this.spriteCaps.anchor.set(0.5);
+        this.spriteCaps.scale.set(0.2);
+        this.spriteCaps.interactive = true;
+        this.spriteCaps.tweenBase = 0;
+
+        this.spriteTwinkle = new PIXI.Sprite(PIXI.Texture.from(game.resources["twinkle"].img));
+        this.spriteTwinkle.anchor.set(0.5);
+        this.spriteTwinkle.alpha = 0.5;
+
+        this.spriteCaps.on("pointerdown", function(e) {
+            if(this.dragging || this.anchoredByUser || !this.released) return;
+            this.dragging = true;
+        });
+
+        this.spriteCaps.on("pointerup", function(e) {
+            this.dragging = false;
+        });
+
+        this.spriteCaps.on("pointerout", function(e) {
+            this.dragging = false;
+        });
+
+        this.spriteCaps.on("pointermove", function(e) {
+            if(!this.dragging || this.anchoredByUser) return;
+            var point = e.data.getLocalPosition(game.app.scene);
+            this.position.set(point.x, point.y);
+
+            var distance = game.stateGame.findDistance(game.stateGame.originalPoint, this.position);
+            if(distance < 16) {
+                this.dragging = false;
+                this.anchoredByUser = true;
+                this.position.set(game.stateGame.originalPoint.x, game.stateGame.originalPoint.y);
+            }
+        });
+
+        this.trail = {
+            points: [],
+            length: 25,
+            strip: null,
+            counter: 0,
+            timer: 0,
+            history: [],
+            update: function(state, ratio, elapsed) {
+                state.trail.counter += ratio * 0.005;
+                state.trail.timer   += elapsed;
+
+                state.trail.history[0].x = state.trail.points[0].x;
+                state.trail.history[0].y = state.trail.points[0].y;
+                state.trail.points[0].x = state.spriteCaps.position.x;
+                state.trail.points[0].y = state.spriteCaps.position.y;
+
+                for(var i = 1; i < state.trail.length; i++) {
+                    var angle = Math.random() * (Math.PI / 2);
+                    var noise = 2 + Math.sin(state.trail.counter) * Math.random() * 3;
+
+                    state.trail.history[i].x = state.trail.points[i].x + Math.cos(angle) * noise;
+                    state.trail.history[i].y = state.trail.points[i].y + Math.sin(angle) * noise;
+
+                    state.trail.points[i].x = state.trail.history[i - 1].x;
+                    state.trail.points[i].y = state.trail.history[i - 1].y;
+                }
+            }
+        };
+        for(var i = 0; i < this.trail.length; i++) {
+            this.trail.points.push(new PIXI.Point(0, 0));
+            this.trail.history.push(new PIXI.Point(0, 0));
+        }
+        this.trail.strip = new PIXI.SimpleRope(PIXI.Texture.from(game.resources["trail"].img), this.trail.points);
+        this.trail.strip.position.x = 0;
+        this.trail.strip.position.y = 0;
+        this.trail.strip.alpha = 0.2;
+
+        this.container.addChild(this.spritePack);
+        this.container.addChild(this.spriteTwinkle);
+        this.container.addChild(this.trail.strip);
+        this.container.addChild(this.spriteCaps);
+        game.app.scene.addChild(this.container);
+
+        this.randomizeSpeed = function() {
+            return this.baseSpeed + Math.random();
+        }
+
+        this.refreshPoint = function(point) {
+            point.x = game.bounds.left + Math.random() * (game.bounds.right);
+            point.y = game.bounds.top  + Math.random() * (game.bounds.bottom);
+        };
+
+        this.findAngle = function(p1, p2) {
+            return Math.atan2(p2.y - p1.y, p2.x - p1.x);
+        };
+
+        this.findDistance = function(p1, p2) {
+            var xx = p2.x - p1.x;
+            var yy = p2.y - p1.y;
+            return Math.sqrt(Math.pow(xx, 2) + Math.pow(yy, 2));
+        };
+
+        this.calculateMovement = function(speed, angle) {
+            var movement = {
+                x: Math.cos(angle) * speed,
+                y: Math.sin(angle) * speed
+            };
+            return movement;
+        }
+
+        this.speed = 0;
+        this.distance = 0;
+        this.currentAngle = 0;
+        this.angle = 0;
+
+        this.intervals.push(window.setInterval(function() {
+            if(PP.states.paused || game.stateGame.seconds <= 0 || !game.stateGame.spriteCaps.released || game.stateGame.spriteCaps.anchoredByUser) return;
+            game.stateGame.baseSpeed -= 0.25;
+            game.stateGame.seconds -= 1;
+            timer.update(game.stateGame.seconds);
+
+            if(game.stateGame.seconds <= 0) {
+                game.stateGame.fail();
+            }
+        }, 1000));
+
+        this.timerDiv = document.getElementById("timer");
+        this.timerDiv.style.display = "inline";
+        this.timerDiv.style.opacity = 0;
+        timer.update(this.seconds);
+
+        PP.sounds.stop("theme");
+        PP.sounds.play("gameplay", true);
+    },
+    ready: function() {
+    },
+    success: function() {
+        PP.states.start("congratz", game.stateTransitionFunction);
+        this.timerDiv.style.display = "none";
+    },
+    fail: function() {
+        PP.states.start("game-over", game.stateTransitionFunction);
+        this.timerDiv.style.display = "none";
+    },
+    update: function(ratio, elapsed) {
+        if(this.container.y < 0) {
+            this.container.x = -this.container.y;
+            this.container.y = 0;
+        }
+        if(this.container.alpha < 1) this.timerDiv.style.opacity = this.container.alpha;
+
+        this.trail.update(this, ratio, elapsed);
+
+        this.spritePack.position.x = game.bounds.right  - this.spritePack.width * 1.4;
+        this.spritePack.position.y = game.bounds.bottom - this.spritePack.height / 1.75;
+        this.originalPoint = {x:this.spritePack.position.x + 12, y:this.spritePack.position.y - 44};
+        this.spriteTwinkle.position.x = this.originalPoint.x;
+        this.spriteTwinkle.position.y = this.originalPoint.y;
+
+        if(!this.spriteCaps.released) {
+            this.spriteCaps.position.x = this.originalPoint.x;
+            this.spriteCaps.position.y = this.originalPoint.y;
+
+            for(var i = 0; i < this.trail.length; i++) {
+                this.trail.points[i].x = this.spriteCaps.position.x;
+                this.trail.points[i].y = this.spriteCaps.position.y;
+                this.trail.history[i].x = this.spriteCaps.position.x;
+                this.trail.history[i].y = this.spriteCaps.position.y;
+            }
+
+            if(this.spriteCaps.scale.x >= 0.8) this.spriteCaps.released = true;
+        }
+
+        this.spriteCaps.tweenBase += 0.2 * ratio;
+        this.spriteCaps.scaleTween = Math.sin(this.spriteCaps.tweenBase);
+        this.spriteTwinkle.scale.set(1 + this.spriteCaps.scaleTween * 1);
+
+        this.spritePack.tweenBase += 0.04 * ratio;
+        this.spritePack.skewTween = Math.sin(this.spritePack.tweenBase);
+
+        this.spritePack.skew.x = this.spritePack.skewTween * 0.004;
+
+        if(this.spriteCaps.anchoredByUser) {
+            this.spriteCaps.position.x = this.originalPoint.x;
+            this.spriteCaps.position.y = this.originalPoint.y;
+            this.spriteCaps.scale.set(PP.lerp(this.spriteCaps.scale.x, 0.22, 0.017 * ratio));
+            this.spriteCaps.rotation = PP.lerp(this.spriteCaps.rotation, Math.PI * 8, 0.04 * ratio);
+            this.spriteCaps.skew.x = this.spritePack.skew.x;
+            this.trail.strip.alpha = PP.approach(this.trail.strip.alpha, 0, 0.01 * ratio);
+
+            if(this.spriteCaps.scale.x <= 0.23) {
+                this.success();
+            }
+
+            return;
+        };
+
+        this.spriteCaps.scale.set(
+            Math.round(PP.lerp(this.spriteCaps.scale.x, 0.8 + (0.8 * this.spriteCaps.scaleTween), 0.015 * ratio) * 100) / 100
+        );
+
+        if(this.spriteCaps.dragging || !this.spriteCaps.released) return;
+
+        this.currentAngle = PP.lerp(this.currentAngle, this.angle, (0.15) * ratio);
+        var movement = this.calculateMovement(this.speed * ratio, this.currentAngle);
+
+        this.spriteCaps.position.set(
+            this.spriteCaps.position.x + movement.x,
+            this.spriteCaps.position.y + movement.y
+        );
+
+        this.distance -= this.speed * ratio;
+        if(this.distance <= 0) {
+            this.refreshPoint(this.point);
+            this.angle = this.findAngle(this.spriteCaps.position, this.point);
+            this.distance = this.findDistance(this.point, this.spriteCaps.position);
+            this.speed = this.randomizeSpeed();
+        }
+    },
+    end: function() {
+        this.container.destroy({children: true});
+        this.intervals.forEach(function(interval) {
+            window.clearInterval(interval);
+        });
+    }
+};
+
+game.stateGameOver = {
+    init: function() {
+        this.container = new PIXI.Container();
+
+        this.sprite = new PIXI.Sprite(PIXI.Texture.from(game.resources["game-over"].img));
+        this.sprite.position.x = game.opts.width / 2;
+        this.sprite.position.y = 70;
+        this.sprite.anchor.set(0.5, 0);
+
+        this.buttonPlayAgain = new PixiButton(PIXI.Texture.from(game.resources["button-play-again"].img));
+        this.buttonPlayAgain.position.x = game.opts.width / 2;
+        this.buttonPlayAgain.position.y = this.sprite.y + this.sprite.height + 220;
+
+        this.container.addChild(this.sprite);
+        this.container.addChild(this.buttonPlayAgain);
+        game.app.scene.addChild(this.container);
+
+        PP.sounds.stop("gameplay");
+        PP.sounds.play("theme", true);
+    },
+    ready: function() {
+        this.buttonPlayAgain.callback = function() {
+            this.callback = null;
+            PP.states.start("game", game.stateTransitionFunction);
+        };
+    },
+    update: function(ratio, elapsed) {
+        this.buttonPlayAgain.updateTween();
+    },
+    end: function() {
+        this.container.destroy({children: true});
+    }
+};
+
+game.stateCongratz = {
+    init: function() {
+        this.container = new PIXI.Container();
+
+        this.sprite = new PIXI.Sprite(PIXI.Texture.from(game.resources["congratz"].img));
+        this.sprite.position.x = game.opts.width / 2;
+        this.sprite.position.y = 100;
+        this.sprite.anchor.set(0.5, 0);
+
+        this.spriteBackground = new PIXI.Sprite(PIXI.Texture.from(game.resources["code-background"].img));
+        this.spriteBackground.position.x = game.opts.width / 2;
+        this.spriteBackground.position.y = this.sprite.position.y + this.sprite.height + 75;
+        this.spriteBackground.anchor.set(0.5, 0);
+
+        this.container.addChild(this.sprite);
+        this.container.addChild(this.spriteBackground);
+        game.app.scene.addChild(this.container);
+
+        PP.sounds.stop("gameplay");
+        PP.sounds.play("theme", true);
+    },
+    ready: function() {
+    },
+    update: function(ratio, elapsed) {
+    },
+    end: function() {
+        this.container.destroy({children: true});
+    }
+};
+
+var timer = {};
+var createTimer = function() {
+    timer.spritesheet  = new PP.Spritesheet(game.resources["sprite-font"].img, game.resources["sprite-font-json"].text);
+    timer.background   = new PP.Drawable(game.resources["timer-background"].img);
+    timer.drawingSpace = new PP.DrawingSpace({width: 122, height: 76}, {alpha: false});
+
+    timer.drawingSpace.addDrawable(timer.background);
+    timer.background.origin.x = 0;
+    timer.background.origin.y = 0;
+
+    timer.head = [];
+    timer.head.push(timer.spritesheet.getFrameAsDrawable("0.png"));
+    timer.head.push(timer.spritesheet.getFrameAsDrawable("0.png"));
+    timer.head.push(timer.spritesheet.getFrameAsDrawable("__colon__.png"));
+    var offset = 0;
+    for(var i = 0; i < 3; i++) {
+        timer.head[i].position.x = 24 + offset;
+        timer.head[i].position.y = timer.drawingSpace.options.height / 2;
+        timer.drawingSpace.addDrawable(timer.head[i]);
+        offset += 20;
+        if(i == 1) offset -= 3;
+    }
+
+    timer.body = [[], []];
+    for(i = 0; i <= 3; i++) {
+        timer.body[0].push(timer.spritesheet.getFrameAsDrawable(i + ".png"));
+        timer.body[0][i].position.x = 22 + offset;
+        timer.body[0][i].position.y = timer.drawingSpace.options.height / 2;
+    }
+    for(i = 0; i <= 9; i++) {
+        timer.body[1].push(timer.spritesheet.getFrameAsDrawable(i + ".png"));
+        timer.body[1][i].position.x = 22 + offset + 20;
+        timer.body[1][i].position.y = timer.drawingSpace.options.height / 2;
+    }
+    timer.bodyCurrent = [timer.body[0][2], timer.body[1][0]];
+    timer.drawingSpace.addDrawable(timer.body[0][2], timer.body[1][0]);
+
+
+    var timerDiv = document.getElementById("timer");
+    timerDiv.appendChild(timer.drawingSpace.canvas);
+
+    timer.onresize = function(parentWidth, parentHeight) {
+        var originalRatio = timer.drawingSpace.options.width / game.opts.width;
+        var currentRatio  = timer.drawingSpace.options.width / parentWidth;
+        var scale = originalRatio / currentRatio;
+        timerDiv.style.transform = "scale(" + scale + ")";
+        timerDiv.style.right = (25 + (timer.drawingSpace.options.width * scale)) + "px";
+    };
+
+    timer.update = function(seconds) {
+        var base   = Math.floor(seconds / 10);
+        var single = seconds % 10;
+        timer.drawingSpace.removeDrawable(timer.bodyCurrent[0], timer.bodyCurrent[1]);
+        timer.drawingSpace.addDrawable(timer.body[0][base], timer.body[1][single]);
+        timer.drawingSpace.redraw();
+    };
+
+    timer.update(30);
+    timer.onresize(window.innerWidth, window.innerHeight);
+};
+
+PP.states.add("menu", game.stateMenu);
+PP.states.add("age-check", game.stateAgeCheck);
+PP.states.add("tutorial", game.stateTutorial);
+PP.states.add("not-legal", game.stateNotLegal);
+PP.states.add("game", game.stateGame);
+PP.states.add("game-over", game.stateGameOver);
+PP.states.add("congratz", game.stateCongratz);
+
+game.loader = new PP.Loader();
+game.loader
+    .add("background", "files/background.png", "img")
+    .add("logo", "files/logo.png", "img")
+    .add("title", "files/title.png", "img")
+    .add("trail", "files/trail.png", "img")
+    .add("tutorial", "files/tutorial.png", "img")
+    .add("tutorial-title", "files/tutorial-title.png", "img")
+    .add("sorry", "files/sorry.png", "img")
+    .add("yes", "files/yes.png", "img")
+    .add("no", "files/no.png", "img")
+    .add("tick", "files/tick.png", "img")
+    .add("are-u-legal", "files/are-u-legal.png", "img")
+    .add("button-play", "files/button-play.png", "img")
+    .add("button-sound-on", "files/button-sound-on.png", "img")
+    .add("button-sound-off", "files/button-sound-off.png", "img")
+    .add("sprite-font", "files/sprite-font.png", "img")
+    .add("sprite-font-json", "files/sprite-font.json")
+    .add("pack", "files/pack.png", "img")
+    .add("caps", "files/caps.png", "img")
+    .add("twinkle", "files/twinkle.png", "img")
+    .add("congratz", "files/congratz.png", "img")
+    .add("code-background", "files/code-background.png", "img")
+    .add("timer-background", "files/timer-background.png", "img")
+    .add("game-over", "files/game-over.png", "img")
+    .add("button-play-again", "files/button-play-again.png", "img")
+;
+game.loader.load(function(progress, resource) {
+    progress = Math.round(progress * 100);
+    var preloaderSpan = document.getElementById("preloader-text");
+    preloaderSpan.innerHTML = progress + "%";
+}, function(resources) {
+    var preloaderSpan = document.getElementById("preloader-text");
+    preloaderSpan.innerHTML = "Click to continue";
+
+    document.body.onclick = function() {
+        document.body.onclick = null;
+        document.getElementById("preloader").style.display = "none";
+
+        game.soundLoader = new PP.Loader();
+        game.soundLoader
+            .add("gameplay", "files/gameplay.mp3", "audio")
+            .add("theme", "files/theme.mp3", "audio")
+        ;
+        game.soundLoader.load();
+        PP.sounds.add("gameplay", game.soundLoader.resources["gameplay"].audio);
+        PP.sounds.add("theme", game.soundLoader.resources["theme"].audio);
+        PP.sounds.play("theme", true);
+    };
+
+    game.resources = resources;
+    createTimer();
+
+    game.background = {
+        sprite: null,
+        spriteLogo: null
+    };
+    game.background.sprite = new PIXI.Sprite(PIXI.Texture.from(resources["background"].img));
+    game.background.spriteLogo = new PIXI.Sprite(PIXI.Texture.from(resources["logo"].img));
+    game.app.stage.addChild(game.background.sprite);
+    game.app.scene = new PIXI.Container();
+    game.app.stage.addChild(game.app.scene);
+    game.app.scene.addChild(game.background.spriteLogo);
+    document.getElementById("game_container").appendChild(game.app.view);
+    game.onresize(0,0);
+    PP.states.start("menu");
+});

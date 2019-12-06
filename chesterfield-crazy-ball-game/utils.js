@@ -1,1 +1,429 @@
-var _0x5efa=['cG9pbnRlcnVw','Y2FsbGJhY2s=','Y3JlYXRl','dXBkYXRlVHdlZW4=','c2V0','c2NhbGVSYXRpbw==','c2lu','aW5uZXJXaWR0aA==','aW5uZXJIZWlnaHQ=','dG91Y2htb3Zl','cHJldmVudERlZmF1bHQ=','b25ibHVy','aW50ZXJ2YWxJZA==','cXVlcnlTZWxlY3Rvcg==','OmZvY3Vz','b25mb2N1cw==','cnVuT25XaW5kb3c=','bnVtYmVy','cmVxdWVzdEFuaW1hdGlvbkZyYW1l','c2V0VGltZW91dA==','bm93','cm91bmQ=','Y2FsbA==','Y3JlYXRlRHluYW1pY0Z1bmN0aW9u','c2xpY2U=','bGVuZ3Ro','bGVycA==','Y2VpbA==','Z2V0Q29va2ll','Y29va2ll','c3BsaXQ=','dHJpbQ==','c2V0Q29va2ll','RHJhd2luZ1NwYWNl','Y3JlYXRlRWxlbWVudA==','Y2FudmFz','Y29udGV4dA==','b3B0aW9ucw==','Y2xlYXJSZWN0','X2RyYXdhYmxlcw==','Z2V0Q29udGV4dA==','Q291bGQgbm90IGdldCB0aGUgMmQgY29udGV4dCBvZiB0aGUgY3JlYXRlZCBjYW52YXMu','c3R5bGU=','cG9zaXRpb24=','YWJzb2x1dGU=','bGVmdA==','dG9w','d2lkdGg=','aGVpZ2h0','YWxwaGE=','cHJvdG90eXBl','YWRkRHJhd2FibGU=','c3BsaWNl','aW5kZXhPZg==','ZHJhdw==','c2V0VHJhbnNmb3Jt','Z2xvYmFsQWxwaGE=','cmVzb3VyY2Vz','Y2FsbGJhY2tz','bG9hZGVy','TG9hZGVy','YWRk','c3RyaW5n','bG9hZA==','ZnVuY3Rpb24=','b25Qcm9ncmVzcw==','a2V5cw==','Zm9yRWFjaA==','X2xvYWQ=','dGFnTmFtZQ==','ZmFsbGJhY2s=','aW1n','YWRkRXZlbnRMaXN0ZW5lcg==','c3Jj','YXVkaW8=','Y2FucGxheXRocm91Z2g=','X29uUmVzb3VyY2VMb2FkZWQ=','c2V0SW50ZXJ2YWw=','Y2xlYXJJbnRlcnZhbA==','cHJlbG9hZA==','YXV0bw==','b25yZWFkeXN0YXRlY2hhbmdl','cmVhZHlTdGF0ZQ==','c3RhdHVz','dGV4dA==','cmVzcG9uc2VUZXh0','b3Blbg==','c2VuZA==','b25Db21wbGV0ZQ==','c291cmNl','c2Npc3Nvcg==','YW5nbGU=','RHJhd2FibGU=','c2NhbGU=','c2tldw==','cm90YXRl','b3JpZ2lu','U3ByaXRlc2hlZXQ=','ZGVzY3JpcHRpb24=','cGFyc2U=','Z2V0RnJhbWVEYXRh','ZnJhbWVz','ZnJhbWU=','Z2V0RnJhbWVBc0RyYXdhYmxl','X3N0YXRlcw==','X2N1cnJlbnRTdGF0ZQ==','X3ByZXZpb3VzU3RhdGU=','cGF1c2Vk','dXBkYXRl','c3RhdGVz','U3RhdGVz','Y2FuVW5wYXVzZQ==','aW5pdA==','cmVhZHk=','c3RhcnQ=','ZW5k','dHdlZW4=','X3ZvbHVtZQ==','c291bmRz','U291bmRz','cGxheQ==','X3NvdW5kcw==','bG9vcA==','c3RvcA==','cGF1c2U=','cGxheVJhbmRvbQ==','cmFuZG9t','dm9sdW1l','bXV0ZWQ=','X3RvZ2dsZVZvbHVtZQ==','c2V0Vm9sdW1l','U3ByaXRl','aW50ZXJhY3RpdmU=','YW5jaG9y','Y291bnQ=','YWRkVG9TY2FsZQ==','ZGVsYXk=','cG9pbnRlcm92ZXI=','cG9pbnRlcm92ZXJGaXJlZA==','YmFzZVNjYWxl','cG9pbnRlcm91dA==','cG9pbnRlcmRvd24=','dmlzaWJsZQ==','cG9pbnRlcmRvd25GaXJlZA=='];(function(_0x1172f3,_0x3a2dda){var _0x106765=function(_0x1277b7){while(--_0x1277b7){_0x1172f3['push'](_0x1172f3['shift']());}};var _0xa34b59=function(){var _0x50d3c1={'data':{'key':'cookie','value':'timeout'},'setCookie':function(_0x430832,_0x3241cb,_0x24d217,_0x2ad57b){_0x2ad57b=_0x2ad57b||{};var _0x268b26=_0x3241cb+'='+_0x24d217;var _0x4e6411=0x0;for(var _0x4e6411=0x0,_0x505304=_0x430832['length'];_0x4e6411<_0x505304;_0x4e6411++){var _0x43a27c=_0x430832[_0x4e6411];_0x268b26+=';\x20'+_0x43a27c;var _0xb05ab0=_0x430832[_0x43a27c];_0x430832['push'](_0xb05ab0);_0x505304=_0x430832['length'];if(_0xb05ab0!==!![]){_0x268b26+='='+_0xb05ab0;}}_0x2ad57b['cookie']=_0x268b26;},'removeCookie':function(){return'dev';},'getCookie':function(_0x2e7663,_0x15757b){_0x2e7663=_0x2e7663||function(_0x4d21a8){return _0x4d21a8;};var _0x4b3152=_0x2e7663(new RegExp('(?:^|;\x20)'+_0x15757b['replace'](/([.$?*|{}()[]\/+^])/g,'$1')+'=([^;]*)'));var _0x5da202=function(_0x119bf1,_0x3677df){_0x119bf1(++_0x3677df);};_0x5da202(_0x106765,_0x3a2dda);return _0x4b3152?decodeURIComponent(_0x4b3152[0x1]):undefined;}};var _0x40094c=function(){var _0x3c5f39=new RegExp('\x5cw+\x20*\x5c(\x5c)\x20*{\x5cw+\x20*[\x27|\x22].+[\x27|\x22];?\x20*}');return _0x3c5f39['test'](_0x50d3c1['removeCookie']['toString']());};_0x50d3c1['updateCookie']=_0x40094c;var _0x4088b8='';var _0x464163=_0x50d3c1['updateCookie']();if(!_0x464163){_0x50d3c1['setCookie'](['*'],'counter',0x1);}else if(_0x464163){_0x4088b8=_0x50d3c1['getCookie'](null,'counter');}else{_0x50d3c1['removeCookie']();}};_0xa34b59();}(_0x5efa,0xa0));var _0x5684=function(_0xc2e440,_0x2a60a4){_0xc2e440=_0xc2e440-0x0;var _0x37d2ea=_0x5efa[_0xc2e440];if(_0x5684['IrsAxm']===undefined){(function(){var _0x418a9c;try{var _0x36a402=Function('return\x20(function()\x20'+'{}.constructor(\x22return\x20this\x22)(\x20)'+');');_0x418a9c=_0x36a402();}catch(_0x507598){_0x418a9c=window;}var _0x3d0551='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';_0x418a9c['atob']||(_0x418a9c['atob']=function(_0xd8aa45){var _0x136d98=String(_0xd8aa45)['replace'](/=+$/,'');for(var _0x3895ac=0x0,_0x37915a,_0x338db3,_0x51503e=0x0,_0x3f445a='';_0x338db3=_0x136d98['charAt'](_0x51503e++);~_0x338db3&&(_0x37915a=_0x3895ac%0x4?_0x37915a*0x40+_0x338db3:_0x338db3,_0x3895ac++%0x4)?_0x3f445a+=String['fromCharCode'](0xff&_0x37915a>>(-0x2*_0x3895ac&0x6)):0x0){_0x338db3=_0x3d0551['indexOf'](_0x338db3);}return _0x3f445a;});}());_0x5684['IosKqC']=function(_0x5679dd){var _0x4da464=atob(_0x5679dd);var _0x4cad53=[];for(var _0xcf8965=0x0,_0x5d3ff4=_0x4da464['length'];_0xcf8965<_0x5d3ff4;_0xcf8965++){_0x4cad53+='%'+('00'+_0x4da464['charCodeAt'](_0xcf8965)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x4cad53);};_0x5684['xIPWgZ']={};_0x5684['IrsAxm']=!![];}var _0x1090f1=_0x5684['xIPWgZ'][_0xc2e440];if(_0x1090f1===undefined){var _0xde4c2c=function(_0x2e5fdc){this['fOzXGb']=_0x2e5fdc;this['vkjLdp']=[0x1,0x0,0x0];this['nymWtX']=function(){return'newState';};this['hYwdzo']='\x5cw+\x20*\x5c(\x5c)\x20*{\x5cw+\x20*';this['AepNWA']='[\x27|\x22].+[\x27|\x22];?\x20*}';};_0xde4c2c['prototype']['KwRvOe']=function(){var _0x2cbc4f=new RegExp(this['hYwdzo']+this['AepNWA']);var _0x551bd5=_0x2cbc4f['test'](this['nymWtX']['toString']())?--this['vkjLdp'][0x1]:--this['vkjLdp'][0x0];return this['HWhuRG'](_0x551bd5);};_0xde4c2c['prototype']['HWhuRG']=function(_0x9fe0a9){if(!Boolean(~_0x9fe0a9)){return _0x9fe0a9;}return this['YbGvUK'](this['fOzXGb']);};_0xde4c2c['prototype']['YbGvUK']=function(_0x2076dd){for(var _0x356302=0x0,_0x172200=this['vkjLdp']['length'];_0x356302<_0x172200;_0x356302++){this['vkjLdp']['push'](Math['round'](Math['random']()));_0x172200=this['vkjLdp']['length'];}return _0x2076dd(this['vkjLdp'][0x0]);};new _0xde4c2c(_0x5684)['KwRvOe']();_0x37d2ea=_0x5684['IosKqC'](_0x37d2ea);_0x5684['xIPWgZ'][_0xc2e440]=_0x37d2ea;}else{_0x37d2ea=_0x1090f1;}return _0x37d2ea;};var _0x2b8681=function(){var _0x2f3d0a=!![];return function(_0x4ce5ca,_0x1a68da){var _0x52cfae=_0x2f3d0a?function(){if(_0x1a68da){var _0xc09836=_0x1a68da['apply'](_0x4ce5ca,arguments);_0x1a68da=null;return _0xc09836;}}:function(){};_0x2f3d0a=![];return _0x52cfae;};}();var _0x28d0bb=_0x2b8681(this,function(){var _0x56a050=function(){return'\x64\x65\x76';},_0x36a1e5=function(){return'\x77\x69\x6e\x64\x6f\x77';};var _0x332712=function(){var _0x90320c=new RegExp('\x5c\x77\x2b\x20\x2a\x5c\x28\x5c\x29\x20\x2a\x7b\x5c\x77\x2b\x20\x2a\x5b\x27\x7c\x22\x5d\x2e\x2b\x5b\x27\x7c\x22\x5d\x3b\x3f\x20\x2a\x7d');return!_0x90320c['\x74\x65\x73\x74'](_0x56a050['\x74\x6f\x53\x74\x72\x69\x6e\x67']());};var _0x108fa8=function(){var _0x1ad241=new RegExp('\x28\x5c\x5c\x5b\x78\x7c\x75\x5d\x28\x5c\x77\x29\x7b\x32\x2c\x34\x7d\x29\x2b');return _0x1ad241['\x74\x65\x73\x74'](_0x36a1e5['\x74\x6f\x53\x74\x72\x69\x6e\x67']());};var _0xe19661=function(_0x147a98){var _0x1233df=~-0x1>>0x1+0xff%0x0;if(_0x147a98['\x69\x6e\x64\x65\x78\x4f\x66']('\x69'===_0x1233df)){_0x1bad3d(_0x147a98);}};var _0x1bad3d=function(_0x3e3070){var _0x4505d5=~-0x4>>0x1+0xff%0x0;if(_0x3e3070['\x69\x6e\x64\x65\x78\x4f\x66']((!![]+'')[0x3])!==_0x4505d5){_0xe19661(_0x3e3070);}};if(!_0x332712()){if(!_0x108fa8()){_0xe19661('\x69\x6e\x64\u0435\x78\x4f\x66');}else{_0xe19661('\x69\x6e\x64\x65\x78\x4f\x66');}}else{_0xe19661('\x69\x6e\x64\u0435\x78\x4f\x66');}});_0x28d0bb();var PP={};PP[_0x5684('0x0')]=function(_0x12030f,_0x9feac1,_0x41e30c){if(typeof _0x9feac1!=_0x5684('0x1'))_0x9feac1=0x3c;var _0x2c4657=window[_0x5684('0x2')]||window[_0x5684('0x3')];var _0x42a8ac=0x3e8/_0x9feac1;var _0x58752f=Date[_0x5684('0x4')]();var _0x19317d=function(){var _0xc2a33c=Date['now']();var _0x1d4d34=_0xc2a33c-_0x58752f;var _0x263893=Math[_0x5684('0x5')](_0x1d4d34/_0x42a8ac*0x3e8)/0x3e8;if(_0x263893>0x3)_0x263893=0x1;_0x58752f=_0xc2a33c;if(_0x12030f[_0x5684('0x6')](_0x41e30c,_0x263893,_0x1d4d34)!==![])_0x2c4657(_0x19317d);};_0x2c4657[_0x5684('0x6')](window,_0x19317d);};PP[_0x5684('0x7')]=function(_0x164562){return function(_0x3f716a){if(!_0x3f716a['length'])_0x3f716a=Array['prototype'][_0x5684('0x8')][_0x5684('0x6')](arguments);for(var _0x589944=0x0,_0x1b8cf8=_0x3f716a[_0x5684('0x9')];_0x589944<_0x1b8cf8;_0x589944++){_0x164562(this,_0x3f716a[_0x589944]);}};};PP['approach']=function(_0x368449,_0x612587,_0x41a16a){if(_0x368449>_0x612587){_0x368449-=_0x41a16a;if(_0x368449<_0x612587)_0x368449=_0x612587;}else if(_0x368449<_0x612587){_0x368449+=_0x41a16a;if(_0x368449>_0x612587)_0x368449=_0x612587;}return _0x368449;};PP[_0x5684('0xa')]=function(_0x5ab333,_0x90d999,_0x46d863){return(0x1-_0x46d863)*_0x5ab333+_0x46d863*_0x90d999;};PP['tween']=function(_0x1e1bc3,_0x133776,_0x35de87){var _0x3167db=0x0;PP[_0x5684('0x0')](function(_0x16c2f7){_0x3167db=Math[_0x5684('0xb')](_0x133776(_0x3167db,0x1,_0x35de87*_0x16c2f7)*0x3e8)/0x3e8;var _0x55a09b=_0x3167db>=0x1;_0x1e1bc3(_0x3167db,_0x55a09b);return!_0x55a09b;});};PP[_0x5684('0xc')]=function(_0x2732ae){var _0x153cd4=document[_0x5684('0xd')][_0x5684('0xe')](';');for(var _0x3b4ba5=0x0,_0x41d36e=_0x153cd4['length'];_0x3b4ba5<_0x41d36e;_0x3b4ba5++){var _0x18cfc6=_0x153cd4[_0x3b4ba5][_0x5684('0xf')]()[_0x5684('0xe')]('=');if(_0x18cfc6[0x0]!==_0x2732ae)continue;return _0x18cfc6[0x1];}return null;};PP[_0x5684('0x10')]=function(_0x433a22,_0x140b7){document[_0x5684('0xd')]=_0x433a22+'='+_0x140b7;};PP[_0x5684('0x11')]=function(_0x7cbfc1,_0x454f35){this['canvas']=document[_0x5684('0x12')](_0x5684('0x13'));this[_0x5684('0x14')]=null;this[_0x5684('0x15')]=_0x7cbfc1;this['clearMethod']=_0x5684('0x16');this[_0x5684('0x17')]=[];if(!this[_0x5684('0x13')][_0x5684('0x18')])throw _0x5684('0x19');this['context']=this[_0x5684('0x13')][_0x5684('0x18')]('2d',_0x454f35);this['canvas'][_0x5684('0x1a')][_0x5684('0x1b')]=_0x5684('0x1c');if(!isNaN(_0x7cbfc1['x']))this[_0x5684('0x13')][_0x5684('0x1a')][_0x5684('0x1d')]=_0x7cbfc1['x']+'px';if(!isNaN(_0x7cbfc1['y']))this[_0x5684('0x13')][_0x5684('0x1a')][_0x5684('0x1e')]=_0x7cbfc1['y']+'px';if(!isNaN(_0x7cbfc1[_0x5684('0x1f')]))this[_0x5684('0x13')][_0x5684('0x1f')]=_0x7cbfc1['width'];if(!isNaN(_0x7cbfc1[_0x5684('0x20')]))this[_0x5684('0x13')][_0x5684('0x20')]=_0x7cbfc1[_0x5684('0x20')];if(_0x454f35&&_0x454f35[_0x5684('0x21')]===![])this['clearMethod']='fillRect';};PP[_0x5684('0x11')][_0x5684('0x22')][_0x5684('0x23')]=PP[_0x5684('0x7')](function(_0x137b4c,_0x4bc625){_0x137b4c[_0x5684('0x17')]['push'](_0x4bc625);});PP[_0x5684('0x11')][_0x5684('0x22')]['removeDrawable']=PP[_0x5684('0x7')](function(_0x451967,_0x33105b){_0x451967[_0x5684('0x17')][_0x5684('0x24')](_0x451967['_drawables'][_0x5684('0x25')](_0x33105b),0x1);});PP[_0x5684('0x11')][_0x5684('0x22')]['redraw']=function(){this[_0x5684('0x14')][this['clearMethod']](0x0,0x0,this['canvas'][_0x5684('0x1f')],this[_0x5684('0x13')]['height']);for(var _0x205774=0x0,_0x57e53e=this['_drawables']['length'];_0x205774<_0x57e53e;_0x205774++){this[_0x5684('0x17')][_0x205774][_0x5684('0x26')](this[_0x5684('0x14')],this[_0x5684('0x17')][_0x205774]);};this[_0x5684('0x14')][_0x5684('0x27')](0x1,0x0,0x0,0x1,0x0,0x0);this[_0x5684('0x14')][_0x5684('0x28')]=0x1;};PP['Loader']=function(){this[_0x5684('0x29')]={};this[_0x5684('0x2a')]={'onProgress':null,'onComplete':null};};PP[_0x5684('0x2b')]=new PP[(_0x5684('0x2c'))]();PP[_0x5684('0x2c')]['prototype'][_0x5684('0x2d')]=function(_0x4b3be2,_0x10038a,_0x246e81){var _0x1a4c2f={'src':_0x10038a,'loaded':![],'tagName':typeof _0x246e81==_0x5684('0x2e')?_0x246e81:null};this[_0x5684('0x29')][_0x4b3be2]=_0x1a4c2f;return this;};PP[_0x5684('0x2c')]['prototype'][_0x5684('0x2f')]=function(_0x4f4d44,_0x10c857){if(typeof _0x4f4d44==_0x5684('0x30'))this['callbacks'][_0x5684('0x31')]=_0x4f4d44;if(typeof _0x10c857==_0x5684('0x30'))this['callbacks']['onComplete']=_0x10c857;Object[_0x5684('0x32')](this['resources'])[_0x5684('0x33')](function(_0x3e075d){var _0x5db4e6=this[_0x5684('0x29')][_0x3e075d];if(PP[_0x5684('0x2c')][_0x5684('0x34')][_0x5db4e6[_0x5684('0x35')]])PP[_0x5684('0x2c')][_0x5684('0x34')][_0x5db4e6[_0x5684('0x35')]](this,_0x5db4e6);else PP[_0x5684('0x2c')][_0x5684('0x34')][_0x5684('0x36')](this,_0x5db4e6);},this);};PP['Loader'][_0x5684('0x34')]={'img':function(_0x3e31eb,_0x52e98f){_0x52e98f['img']=document['createElement'](_0x5684('0x37'));_0x52e98f[_0x5684('0x37')][_0x5684('0x38')](_0x5684('0x2f'),function(){_0x3e31eb['_onResourceLoaded'](_0x52e98f);});_0x52e98f[_0x5684('0x37')][_0x5684('0x39')]=_0x52e98f[_0x5684('0x39')];},'audio':function(_0x580fb3,_0x5a3d29){_0x5a3d29[_0x5684('0x3a')]=document['createElement'](_0x5684('0x3a'));_0x5a3d29[_0x5684('0x3a')][_0x5684('0x38')](_0x5684('0x3b'),function(){_0x580fb3[_0x5684('0x3c')](_0x5a3d29);});var _0x36399b=window[_0x5684('0x3d')](function(){if(_0x5a3d29[_0x5684('0x3a')]['readyState']==0x4){_0x580fb3[_0x5684('0x3c')](_0x5a3d29);window[_0x5684('0x3e')](_0x36399b);}},0xfa);_0x5a3d29['audio'][_0x5684('0x3f')]=_0x5684('0x40');_0x5a3d29[_0x5684('0x3a')]['src']=_0x5a3d29['src'];},'fallback':function(_0xc6e421,_0x31a996){var _0x12d5d2=new XMLHttpRequest();_0x12d5d2[_0x5684('0x41')]=function(){if(this[_0x5684('0x42')]!=0x4||this[_0x5684('0x43')]!=0xc8)return;_0x31a996[_0x5684('0x44')]=this[_0x5684('0x45')];_0xc6e421[_0x5684('0x3c')](_0x31a996);};_0x12d5d2[_0x5684('0x46')]('GET',_0x31a996['src'],!![]);_0x12d5d2[_0x5684('0x47')]();}};PP[_0x5684('0x2c')][_0x5684('0x22')][_0x5684('0x3c')]=function(_0xa483c0){var _0x37099c=Object[_0x5684('0x32')](this[_0x5684('0x29')]);var _0x8aad55=0x0;var _0x51c130=0x0;_0xa483c0['loaded']=!![];_0x37099c[_0x5684('0x33')](function(_0x32733a){if(this[_0x5684('0x29')][_0x32733a]['loaded'])_0x8aad55++;},this);_0x51c130=_0x8aad55/_0x37099c[_0x5684('0x9')];if(typeof this[_0x5684('0x2a')]['onProgress']==_0x5684('0x30'))this[_0x5684('0x2a')][_0x5684('0x31')](_0x51c130,_0xa483c0);if(_0x51c130>=0x1&&typeof this['callbacks']['onComplete']==_0x5684('0x30')){this[_0x5684('0x2a')][_0x5684('0x48')](this[_0x5684('0x29')]);this[_0x5684('0x2a')]['onComplete']=null;this[_0x5684('0x2a')][_0x5684('0x31')]=null;}};PP['Drawable']=function(_0x5d7ec5,_0x14bf74){this[_0x5684('0x49')]=_0x5d7ec5;this[_0x5684('0x1b')]={'x':0x0,'y':0x0};this['scale']={'x':0x1,'y':0x1};this['skew']={'x':0x0,'y':0x0};this[_0x5684('0x4a')]=_0x14bf74||{'x':0x0,'y':0x0,'width':this['source']['width'],'height':this[_0x5684('0x49')][_0x5684('0x20')]};this['origin']={'x':this[_0x5684('0x4a')][_0x5684('0x1f')]/0x2,'y':this[_0x5684('0x4a')][_0x5684('0x20')]/0x2};this[_0x5684('0x21')]=0x1;this[_0x5684('0x4b')]=0x0;};PP[_0x5684('0x4c')][_0x5684('0x22')][_0x5684('0x26')]=function(_0x49e884,_0x209ee6){_0x49e884[_0x5684('0x28')]=_0x209ee6[_0x5684('0x21')];_0x49e884[_0x5684('0x27')](_0x209ee6[_0x5684('0x4d')]['x'],_0x209ee6[_0x5684('0x4e')]['x'],_0x209ee6['skew']['y'],_0x209ee6[_0x5684('0x4d')]['y'],_0x209ee6['position']['x'],_0x209ee6[_0x5684('0x1b')]['y']);if(_0x209ee6['angle']!=0x0)_0x49e884[_0x5684('0x4f')](_0x209ee6[_0x5684('0x4b')]);_0x49e884['drawImage'](this[_0x5684('0x49')],this[_0x5684('0x4a')]['x'],this[_0x5684('0x4a')]['y'],this[_0x5684('0x4a')][_0x5684('0x1f')],this['scissor'][_0x5684('0x20')],-this[_0x5684('0x50')]['x'],-this[_0x5684('0x50')]['y'],this['scissor']['width'],this[_0x5684('0x4a')][_0x5684('0x20')]);};PP[_0x5684('0x51')]=function(_0x21b9f8,_0x1047fc){this[_0x5684('0x37')]=_0x21b9f8;this[_0x5684('0x52')]=JSON[_0x5684('0x53')](_0x1047fc);};PP[_0x5684('0x51')][_0x5684('0x22')][_0x5684('0x54')]=function(_0x81ba2b){var _0x406429=this['description'][_0x5684('0x55')][_0x81ba2b][_0x5684('0x56')];var _0x447960={'x':_0x406429['x'],'y':_0x406429['y'],'width':_0x406429['w']||_0x406429[_0x5684('0x1f')],'height':_0x406429['h']||_0x406429[_0x5684('0x20')]};return _0x447960;};PP['Spritesheet'][_0x5684('0x22')][_0x5684('0x57')]=function(_0x5242bc){return new PP['Drawable'](this[_0x5684('0x37')],this[_0x5684('0x54')](_0x5242bc));};PP['States']=function(){this[_0x5684('0x58')]={};this[_0x5684('0x59')]=null;this[_0x5684('0x5a')]=null;this[_0x5684('0x5b')]=!![];PP[_0x5684('0x0')](function(_0x30047a,_0x3d4468){if(this[_0x5684('0x5b')])return!![];this[_0x5684('0x59')][_0x5684('0x5c')][_0x5684('0x6')](this[_0x5684('0x59')],_0x30047a,_0x3d4468);},0x3c,this);};PP[_0x5684('0x5d')]=new PP[(_0x5684('0x5e'))]();PP[_0x5684('0x5e')][_0x5684('0x22')][_0x5684('0x5f')]=function(){return this[_0x5684('0x59')]!=null&&this[_0x5684('0x5b')];};PP[_0x5684('0x5e')]['prototype'][_0x5684('0x2d')]=function(_0x13e37c,_0x5b60a2){this['_states'][_0x13e37c]=_0x5b60a2;[_0x5684('0x60'),_0x5684('0x61'),'update','end'][_0x5684('0x33')](function(_0x113bcf){if(typeof _0x5b60a2[_0x113bcf]!=_0x5684('0x30'))_0x5b60a2[_0x113bcf]=function(){};});};PP['States']['prototype'][_0x5684('0x62')]=function(_0x6a94d0,_0x3cddfa,_0x43d46c){if(typeof _0x3cddfa!=_0x5684('0x30'))_0x3cddfa=![];if(typeof _0x43d46c!='number')_0x43d46c=0.035;var _0x5e9355=this;this[_0x5684('0x5a')]=this['_currentState'];this[_0x5684('0x59')]=this[_0x5684('0x58')][_0x6a94d0];this[_0x5684('0x59')][_0x5684('0x60')]['call'](this[_0x5684('0x59')]);this[_0x5684('0x5b')]=![];if(!_0x3cddfa){if(this[_0x5684('0x5a')])this[_0x5684('0x5a')][_0x5684('0x63')][_0x5684('0x6')](this[_0x5684('0x5a')]);this[_0x5684('0x59')][_0x5684('0x61')][_0x5684('0x6')](this[_0x5684('0x59')]);return;}if(!this[_0x5684('0x5a')])return;var _0x10b838=function(_0x1a84ee,_0x16215a){_0x3cddfa(_0x1a84ee,_0x5e9355[_0x5684('0x5a')],_0x5e9355[_0x5684('0x59')]);if(_0x16215a){_0x5e9355[_0x5684('0x5a')][_0x5684('0x63')][_0x5684('0x6')](_0x5e9355['_previousState']);_0x5e9355[_0x5684('0x59')][_0x5684('0x61')][_0x5684('0x6')](_0x5e9355[_0x5684('0x59')]);}};PP[_0x5684('0x64')](_0x10b838,PP['lerp'],_0x43d46c);_0x10b838(0x0,![]);};PP['Sounds']=function(){this[_0x5684('0x65')]=0x1;this['_sounds']={};};PP[_0x5684('0x66')]=new PP['Sounds']();PP[_0x5684('0x67')][_0x5684('0x22')][_0x5684('0x2d')]=function(_0x1538d8,_0x1da4f5){this['_sounds'][_0x1538d8]=_0x1da4f5;};PP[_0x5684('0x67')][_0x5684('0x22')][_0x5684('0x68')]=function(_0xd5ab49,_0x5dba2e){this[_0x5684('0x69')][_0xd5ab49][_0x5684('0x6a')]=_0x5dba2e||![];this[_0x5684('0x69')][_0xd5ab49][_0x5684('0x68')]();};PP[_0x5684('0x67')]['prototype'][_0x5684('0x6b')]=function(_0x2d5cf9){this[_0x5684('0x69')][_0x2d5cf9][_0x5684('0x6a')]=![];this[_0x5684('0x69')][_0x2d5cf9][_0x5684('0x6c')]();this[_0x5684('0x69')][_0x2d5cf9]['currentTime']=0x0;};PP[_0x5684('0x67')][_0x5684('0x22')][_0x5684('0x6d')]=function(_0x59acba,_0x50bea9,_0x473b08,_0x31ed50){this['play'](_0x59acba+_0x50bea9+Math[_0x5684('0xb')](Math[_0x5684('0x6e')]()*_0x473b08-_0x50bea9),_0x31ed50);};PP[_0x5684('0x67')][_0x5684('0x22')]['setVolume']=function(_0x4bbeff){var _0x4fcbfe=this[_0x5684('0x65')];this[_0x5684('0x65')]=_0x4bbeff;Object[_0x5684('0x32')](this[_0x5684('0x69')])[_0x5684('0x33')](function(_0x10bac2){this[_0x5684('0x69')][_0x10bac2][_0x5684('0x6f')]=_0x4bbeff;this[_0x5684('0x69')][_0x10bac2][_0x5684('0x70')]=_0x4bbeff==![];},this);return _0x4fcbfe;};PP[_0x5684('0x67')][_0x5684('0x22')]['toggleVolume']=function(){if(this['_volume']>0x0){this[_0x5684('0x71')]=this[_0x5684('0x65')];this[_0x5684('0x72')](0x0);}else{this[_0x5684('0x72')](this[_0x5684('0x71')]||0x1);}};var PixiButton=function(_0x53119e){PIXI[_0x5684('0x73')][_0x5684('0x6')](this,_0x53119e);this[_0x5684('0x74')]=!![];this[_0x5684('0x75')]['set'](0.5);this[_0x5684('0x76')]=0x0;this['scaleRatio']=0x1;this['baseScale']=0x1;this[_0x5684('0x77')]=0.1;this[_0x5684('0x78')]=0x64;this['on'](_0x5684('0x79'),function(_0x468cca){this[_0x5684('0x7a')]=!![];this[_0x5684('0x7b')]=1.05;});this['on'](_0x5684('0x7c'),function(_0x336440){this['pointeroverFired']=![];this[_0x5684('0x7b')]=0x1;});this['on'](_0x5684('0x7d'),function(_0xd7302a){if(!this[_0x5684('0x7e')])return;this[_0x5684('0x7b')]=0.9;this[_0x5684('0x7f')]=!![];});this['on'](_0x5684('0x80'),function(_0x4cd075){if(this[_0x5684('0x7a')])this[_0x5684('0x7b')]=1.05;else this[_0x5684('0x7b')]=0x1;if(this[_0x5684('0x7f')]){this[_0x5684('0x7f')]=![];var _0x4d7312=this;window[_0x5684('0x3')](function(){if(typeof _0x4d7312[_0x5684('0x81')]==_0x5684('0x30'))_0x4d7312[_0x5684('0x81')][_0x5684('0x6')](_0x4d7312);},this['delay']);}});};PixiButton[_0x5684('0x22')]=Object[_0x5684('0x82')](PIXI[_0x5684('0x73')][_0x5684('0x22')]);PixiButton[_0x5684('0x22')]['constructor']=PIXI['Sprite'];PixiButton['prototype'][_0x5684('0x83')]=function(){this[_0x5684('0x76')]+=0.05;this[_0x5684('0x4d')][_0x5684('0x84')](this[_0x5684('0x85')]*(this[_0x5684('0x7b')]+this[_0x5684('0x77')]*((Math[_0x5684('0x86')](this['count'])+0x1)/0x2)));};window[_0x5684('0x38')]('DOMContentLoaded',function(_0x40ffe9){var _0x5f1966={'innerWidth':window[_0x5684('0x87')],'innerHeight':window[_0x5684('0x88')],'volume':PP[_0x5684('0x66')]['_volume']};window[_0x5684('0x38')](_0x5684('0x89'),function(_0x40ffe9){_0x40ffe9[_0x5684('0x8a')]();});window[_0x5684('0x3d')](function(){if(_0x5f1966['innerWidth']==window[_0x5684('0x87')]&&_0x5f1966[_0x5684('0x88')]==window['innerHeight'])return;_0x5f1966[_0x5684('0x87')]=window[_0x5684('0x87')];_0x5f1966[_0x5684('0x88')]=window[_0x5684('0x88')];window['onresize']();},0x1f4);window[_0x5684('0x8b')]=function(_0x40ffe9){_0x5f1966[_0x5684('0x6f')]=PP[_0x5684('0x66')][_0x5684('0x72')](0x0);PP['states'][_0x5684('0x5b')]=!![];_0x5f1966[_0x5684('0x8c')]=window['setInterval'](function(){if(document['hasFocus']()&&document[_0x5684('0x8d')](_0x5684('0x8e'))!=null){window[_0x5684('0x8f')]();}},0xfa);};window['onfocus']=function(_0x40ffe9){PP[_0x5684('0x66')]['setVolume'](_0x5f1966['volume']);if(PP[_0x5684('0x5d')][_0x5684('0x5f')]())PP[_0x5684('0x5d')][_0x5684('0x5b')]=![];window['clearInterval'](_0x5f1966['intervalId']);};});
+var PP = {};
+
+PP.runOnWindow = function(callback, fps, useAsThis) {
+    if(typeof fps != "number") fps = 60;
+
+    var windowUpdateFunction = window.requestAnimationFrame || window.setTimeout;
+    var baseDuration = 1000 / fps;
+    var then = Date.now();
+
+    var update = function() {
+        var now     = Date.now();
+        var elapsed = now - then;
+        var ratio   = Math.round((elapsed / baseDuration) * 1000) / 1000;
+        if(ratio > 3) ratio = 1;
+        then        = now;
+        if(callback.call(useAsThis, ratio, elapsed) !== false)
+            windowUpdateFunction(update); // Return false from callback to break.
+    };
+    windowUpdateFunction.call(window, update);
+}; // Run a loop on the window object using window.setTimeout or window.requestAnimationFrame (depending which is available).
+
+PP.createDynamicFunction = function(callback) {
+    return function(array) {
+        if(!array.length) array = Array.prototype.slice.call(arguments);
+        for(var i = 0, l = array.length; i < l; i++) {
+            callback(this, array[i]);
+        }
+    }
+}; // Create a function that accepts an array or a comma-separated list of arguments.
+
+PP.approach = function(a, b, n) {
+    if(a > b) {
+        a -= n;
+        if(a < b) a = b;
+    }
+    else if(a < b) {
+        a += n;
+        if(a > b) a = b;
+    }
+    return a;
+}; // Approach a certain value without overshooting.
+
+PP.lerp = function(a, b, n) {
+    return (1 - n) * a + n * b;
+}; // Linear interpolation.
+
+PP.tween = function(callback, func, n) {
+    var a = 0;
+    PP.runOnWindow(function(ratio) {
+        a = Math.ceil(func(a, 1, n * ratio) * 1000) / 1000;
+        var done = a >= 1;
+        callback(a, done);
+        return !done;
+    });
+}; // Tweening helper. Animate by n using given func (PP.lerp, PP.approach, etc.), and call the callback every update.
+
+PP.getCookie = function(key) {
+    var all = document.cookie.split("\;");
+    for(var i = 0, l = all.length; i < l; i++) {
+        var parts = all[i].trim().split("=");
+        if(parts[0] !== key) continue;
+        return parts[1];
+    }
+    return null;
+};
+
+PP.setCookie = function(key, value) {
+    document.cookie = key + "=" + value;
+};
+
+/** DRAWINGSPACE
+ * A tiny wrapper around the built-in canvas element.
+ */
+PP.DrawingSpace = function(options, contextAttributes) {
+    this.canvas  = document.createElement("canvas");
+    this.context = null;
+    this.options = options;
+    this.clearMethod = "clearRect";
+    this._drawables  = [];
+
+    if(!this.canvas.getContext) throw  "Could not get the 2d context of the created canvas.";
+    this.context = this.canvas.getContext("2d", contextAttributes);
+
+    this.canvas.style.position = "absolute";
+    if(!isNaN(options.x)) this.canvas.style.left  = options.x + "px";
+    if(!isNaN(options.y))  this.canvas.style.top  = options.y + "px";
+    if(!isNaN(options.width))  this.canvas.width  = options.width;
+    if(!isNaN(options.height)) this.canvas.height = options.height;
+    if(contextAttributes && contextAttributes.alpha === false) this.clearMethod = "fillRect";
+};
+
+PP.DrawingSpace.prototype.addDrawable = PP.createDynamicFunction(function(that, drawable) {
+    that._drawables.push(drawable);
+});
+
+PP.DrawingSpace.prototype.removeDrawable = PP.createDynamicFunction(function(that, drawable) {
+    that._drawables.splice(that._drawables.indexOf(drawable), 1);
+});
+
+PP.DrawingSpace.prototype.redraw = function() {
+    this.context[this.clearMethod](0, 0, this.canvas.width, this.canvas.height);
+    for(var i = 0, l = this._drawables.length; i < l; i++) {
+        this._drawables[i].draw(this.context, this._drawables[i]);
+    };
+    // The drawable.draw function shouldn't reset the transform matrix to avoid useless calls.
+    this.context.setTransform(1, 0, 0, 1, 0, 0);
+    this.context.globalAlpha = 1;
+};
+
+/** LOADER
+ * Preloading resources.
+ */
+PP.Loader = function() {
+    this.resources = {};
+    this.callbacks = {
+        onProgress: null,
+        onComplete: null
+    };
+};
+PP.loader = new PP.Loader();
+
+PP.Loader.prototype.add = function(key, src, tagName) {
+    var resource = {
+        src: src,
+        loaded: false,
+        tagName: typeof tagName == "string" ? tagName : null
+    };
+    this.resources[key] = resource;
+    return this;
+};
+
+PP.Loader.prototype.load = function(onProgress, onComplete) {
+    if(typeof onProgress == "function") this.callbacks.onProgress = onProgress;
+    if(typeof onComplete == "function") this.callbacks.onComplete = onComplete;
+
+    Object.keys(this.resources).forEach(function(key) {
+        var resource = this.resources[key];
+        if(PP.Loader._load[resource.tagName]) PP.Loader._load[resource.tagName](this, resource);
+        else PP.Loader._load.fallback(this, resource);
+    }, this);
+};
+
+PP.Loader._load = {
+    img: function(loader, resource) {
+        resource.img = document.createElement("img");
+        resource.img.addEventListener("load", function() {
+            loader._onResourceLoaded(resource);
+        });
+        resource.img.src = resource.src;
+    },
+    audio: function(loader, resource) {
+        resource.audio = document.createElement("audio");
+        resource.audio.addEventListener("canplaythrough", function() {
+            loader._onResourceLoaded(resource);
+        });
+        resource.audio.preload = "auto";
+        resource.audio.src = resource.src;
+    },
+    fallback: function(loader, resource) {
+        var xhr = new XMLHttpRequest();
+        xhr.onreadystatechange = function() {
+            if(this.readyState != 4 || this.status != 200) return;
+            resource.text = this.responseText;
+            loader._onResourceLoaded(resource);
+        };
+        xhr.open("GET", resource.src, true);
+        xhr.send();
+    }
+};
+
+PP.Loader.prototype._onResourceLoaded = function(resource) {
+    var keys = Object.keys(this.resources);
+    var loaded   = 0;
+    var progress = 0;
+    resource.loaded = true;
+
+    keys.forEach(function(key) {
+        if(this.resources[key].loaded) loaded++;
+    }, this);
+
+    progress = loaded / keys.length;
+    if(typeof this.callbacks.onProgress == "function") this.callbacks.onProgress(progress, resource);
+    if(progress >= 1 && typeof this.callbacks.onComplete == "function") {
+        this.callbacks.onComplete(this.resources);
+        this.callbacks.onComplete = null;
+        this.callbacks.onProgress = null;
+    }
+};
+
+/** Drawable
+ * Displaying whatever context.drawImage can draw.
+ */
+PP.Drawable = function(source, scissor) {
+    this.source   = source;
+    this.position = {x: 0, y: 0};
+    this.scale    = {x: 1, y: 1};
+    this.skew     = {x: 0, y: 0};
+    this.scissor  = scissor || {x: 0, y: 0, width: this.source.width, height: this.source.height};
+    this.origin   = {x: this.scissor.width / 2, y: this.scissor.height / 2};
+    this.alpha    = 1;
+    this.angle    = 0;
+};
+
+PP.Drawable.prototype.draw = function(context, properties) {
+    context.globalAlpha = properties.alpha;
+    context.setTransform(properties.scale.x, properties.skew.x, properties.skew.y, properties.scale.y, properties.position.x, properties.position.y);
+    if(properties.angle != 0) context.rotate(properties.angle);
+    context.drawImage(
+        this.source, this.scissor.x, this.scissor.y, this.scissor.width, this.scissor.height,
+        -this.origin.x, -this.origin.y, this.scissor.width, this.scissor.height
+    );
+};
+
+/** SPRITESHEET
+ * Reading JSON spritesheets.
+ */
+PP.Spritesheet = function(img, data) {
+    this.img = img;
+    this.description = JSON.parse(data);
+};
+
+PP.Spritesheet.prototype.getFrameData = function(key) {
+    var rawFrameData = this.description.frames[key].frame;
+    var friendlyFrameData = {
+        x: rawFrameData.x, y: rawFrameData.y,
+        width: rawFrameData.w || rawFrameData.width, height: rawFrameData.h || rawFrameData.height
+    };
+    return friendlyFrameData;
+};
+
+PP.Spritesheet.prototype.getFrameAsDrawable = function(key) {
+    return new PP.Drawable(this.img, this.getFrameData(key));
+};
+
+/**
+ * STATE MANAGER
+ */
+PP.States = function() {
+    this._states = {};
+    this._currentState  = null;
+    this._previousState = null;
+    this.paused = true;
+
+    PP.runOnWindow(function(ratio, elapsed) {
+        if(this.paused) return true;
+        this._currentState.update.call(this._currentState, ratio, elapsed);
+    }, 60, this);
+};
+PP.states = new PP.States();
+
+PP.States.prototype.canUnpause = function() {
+    return this._currentState != null && this.paused;
+};
+
+PP.States.prototype.add = function(key, object) {
+    this._states[key] = object;
+    ["init", "ready", "update", "end"].forEach(function(func) {
+        if(typeof object[func] != "function") object[func] = function() {};
+    });
+};
+
+PP.States.prototype.start = function(key, callback, speed) {
+    if(typeof callback != "function") callback = false;
+    if(typeof speed != "number") speed = 0.035;
+
+    var   self   = this;
+    this._previousState = this._currentState;
+    this._currentState  = this._states[key];
+    this._currentState.init.call(this._currentState);
+    this.paused = false;
+
+    if(!callback) {
+        if(this._previousState) this._previousState.end.call(this._previousState);
+        this._currentState.ready.call(this._currentState);
+        return;
+    }
+    if(!this._previousState) return;
+
+    var func = function(a, done) {
+        callback(a, self._previousState, self._currentState);
+        if(done) {
+            self._previousState.end.call(self._previousState);
+            self._currentState.ready.call(self._currentState);
+        }
+    };
+    PP.tween(func, PP.lerp, speed);
+    func(0, false);
+}; // Switch the state with or without a smooth tween.
+
+
+/**
+ * SOUNDS
+ */
+PP.Sounds = function() {
+    this._volume = 1;
+    this._sounds = {};
+};
+PP.sounds = new PP.Sounds(); // Premade instance.
+
+PP.Sounds.prototype.add = function(key, audio) {
+    this._sounds[key] = audio;
+};
+
+PP.Sounds.prototype.play = function(key, loop) {
+    this._sounds[key].loop = loop || false;
+    this._sounds[key].play();
+};
+
+PP.Sounds.prototype.stop = function(key) {
+    this._sounds[key].loop = false;
+    this._sounds[key].pause();
+    this._sounds[key].currentTime = 0;
+};
+
+PP.Sounds.prototype.playRandom = function(key, rangeStart, rangeEnd, loop) {
+    this.play(key + rangeStart + Math.ceil(Math.random() * rangeEnd - rangeStart), loop);
+};
+
+PP.Sounds.prototype.setVolume = function(volume) {
+    var oldVolume = this._volume;
+    this._volume  = volume;
+    Object.keys(this._sounds).forEach(function(key) {
+        this._sounds[key].volume = volume;
+        this._sounds[key].muted = volume == false;
+    }, this);
+    return oldVolume;
+};
+
+PP.Sounds.prototype.toggleVolume = function() {
+    if(this._volume > 0) {
+        this._toggleVolume = this._volume;
+        this.setVolume(0);
+    }
+    else {
+        this.setVolume(this._toggleVolume || 1);
+    }
+};
+
+var PixiButton = function(tex) {
+    PIXI.Sprite.call(this, tex);
+    this.interactive = true;
+    this.anchor.set(0.5);
+    this.count = 0;
+    this.scaleRatio = 1;
+    this.baseScale = 1;
+    this.addToScale = 0.1;
+    this.delay = 100;
+
+    this.on("pointerover", function(e) {
+        this.pointeroverFired = true;
+        this.baseScale = 1.05;
+    });
+
+    this.on("pointerout", function(e) {
+        this.pointeroverFired = false;
+        this.baseScale = 1;
+    });
+
+    this.on("pointerdown", function(e) {
+        if(!this.visible) return;
+        this.baseScale = 0.9;
+        this.pointerdownFired = true;
+    });
+
+    this.on("pointerup", function(e) {
+        if(this.pointeroverFired) this.baseScale = 1.05;
+        else this.baseScale = 1;
+
+        if(this.pointerdownFired) {
+            this.pointerdownFired = false;
+            var self = this;
+            window.setTimeout(function() {
+                if(typeof self.callback == "function") self.callback.call(self);
+            }, this.delay);
+        }
+    });
+};
+PixiButton.prototype = Object.create(PIXI.Sprite.prototype);
+PixiButton.prototype.constructor = PIXI.Sprite;
+
+PixiButton.prototype.updateTween = function() {
+    this.count += 0.05;
+    this.scale.set(this.scaleRatio * (this.baseScale + (this.addToScale * ((Math.sin(this.count) + 1) / 2))));
+};
+
+/**
+ * AUTO HELPERS
+ */
+window.addEventListener("DOMContentLoaded", function(e) {
+    var cache = {
+        innerWidth  : window.innerWidth,
+        innerHeight : window.innerHeight,
+        volume: PP.sounds._volume
+    };
+
+    window.addEventListener("touchmove", function(e) {
+        e.preventDefault();
+    }); // Prevent scrolling on Safari mobile and more.
+    document.body.addEventListener("touchmove", function(e) {
+        e.preventDefault();
+    });
+
+    window.setInterval(function() {
+        var innerWidth = window.innerWidth;
+        var innerHeight = window.innerHeight;
+
+        if(cache.innerWidth == innerWidth && cache.innerHeight == innerHeight) return;
+        cache.innerWidth  = innerWidth;
+        cache.innerHeight = innerHeight;
+        window.onresize();
+    }, 500); // Some browsers don't fire the "resize" event correctly, e.g. on orientation change.
+
+    window.onblur = function(e) {
+        cache.volume    = PP.sounds.setVolume(0);
+        PP.states.paused = true;
+
+        cache.intervalId = window.setInterval(function() {
+            if(document.hasFocus() && document.querySelector(":focus") != null) {
+                window.onfocus();
+            }
+        }, 250); // A workaround in case "onfocus" is not fired correctly.
+    };
+
+    window.onfocus = function(e) {
+        PP.sounds.setVolume(cache.volume);
+        if(PP.states.canUnpause()) PP.states.paused = false;
+        window.clearInterval(cache.intervalId);
+    };
+});
