@@ -6,11 +6,10 @@
         <script type="text/javascript">
             window.onload = function() {
                 var adjustPage = function(e) {
+                    alert(document.scrollHeight || document.body.scrollHeight);
+
                     var innerWidth = window.innerWidth;
                     var innerHeight = window.innerHeight;
-
-                    document.documentElement.style.height = innerHeight.toString() + "px";
-                    document.body.style.height = innerHeight.toString() + "px";
 
                     var banner = document.getElementById("banner");
                     var preloader = document.getElementById("preloader");
