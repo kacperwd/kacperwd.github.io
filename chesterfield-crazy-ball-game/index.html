@@ -3,6 +3,11 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=0, minimal-ui">
+        <script type="text/javascript">
+            window.crazyBallCFG = {
+                videoType: "mintburst"
+            }
+        </script>
         <style>
             html, body {
                 margin: 0;
@@ -34,22 +39,48 @@
                 display: none;
                 z-index: 1;
             }
-            #game_container {
-            }
-            #banner {
-                width: 100%;
-                background-color: #FFFFFF;
+            #code {
+                position: absolute;
+                z-index: 1;
                 display: none;
             }
-            #banner>img {
-                max-width: 100%;
-                width: 100%;
-                height: auto;
-                max-width: 100%;
-                max-height: 10vh;
-                min-height: 24px;
-                margin-left: auto;
-                margin-top: auto;
+            #code>textarea {
+                resize: none;
+                overflow: hidden;
+                border: none;
+                outline: none;
+                -webkit-box-shadow: none;
+                -moz-box-shadow: none;
+                box-shadow: none;
+                background-color: transparent;
+                opacity: 0;
+            }
+            #video_anim {
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: inherit;
+                height: inherit;
+            }
+            #video_anim_bg {
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: inherit;
+                height: inherit;
+                -o-filter: blur(11px);
+                filter: blur(11px);
+                object-fit: cover;
+                transform: scale(1.06);
+                min-width: 100%;
+                min-height: 100%;
+            }
+            #video_anim_container {
+                z-index: -1;
+                position: absolute;
+                left: 0;
+                top: 0;
+                display: none;
             }
         </style>
     </head>
@@ -59,10 +90,11 @@
                 <span id="preloader-text"></span>
             </div>
             <div id="timer"></div>
-            <div id="game_container"></div>
-            <div id="banner">
-                <img id="banner_img" src="files/smokers-die-young.png"></img>
+            <div id="code">
+                <textarea id="code_textarea" readonly>123456</textarea>
             </div>
+            <div id="game_container"></div>
+            <div id="video_anim_container"></div>
         </div>
         <script type="text/javascript" src="files/pixi-legacy.min.js"></script>
         <script type="text/javascript" src="utils.js"></script>
@@ -72,14 +104,13 @@
                 var innerWidth = window.innerWidth;
                 var innerHeight = window.innerHeight;
 
-                var banner = document.getElementById("banner");
-                banner.style.display = "inline-block";
-
                 var preloader = document.getElementById("preloader");
-                preloader.style.width = innerWidth.toString() + "px";
-                preloader.style.height = innerHeight.toString() + "px";
+                if(preloader) {
+                    preloader.style.width = innerWidth.toString() + "px";
+                    preloader.style.height = innerHeight.toString() + "px";
+                }
 
-                game.onresize(innerWidth, innerHeight - banner.clientHeight);
+                game.onresize(innerWidth, innerHeight);
                 if(typeof timer.onresize == "function") timer.onresize(innerWidth, innerHeight);
 
                 window.scrollTo(0, 0);
