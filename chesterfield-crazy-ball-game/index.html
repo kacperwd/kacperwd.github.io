@@ -39,21 +39,12 @@
                 display: none;
                 z-index: 1;
             }
-            #code {
+            #codespan {
                 position: absolute;
-                z-index: 1;
-                display: none;
-            }
-            #code>textarea {
-                resize: none;
-                overflow: hidden;
-                border: none;
-                outline: none;
-                -webkit-box-shadow: none;
-                -moz-box-shadow: none;
-                box-shadow: none;
-                background-color: transparent;
+                font-family: Helvetica;
+                font-weight: lighter;
                 opacity: 0;
+                display: none;
             }
             #video_anim {
                 position: absolute;
@@ -90,9 +81,7 @@
                 <span id="preloader-text"></span>
             </div>
             <div id="timer"></div>
-            <div id="code">
-                <textarea id="code_textarea" readonly>123456</textarea>
-            </div>
+            <span id="codespan">1234567890</span>
             <div id="game_container"></div>
             <div id="video_anim_container"></div>
         </div>
